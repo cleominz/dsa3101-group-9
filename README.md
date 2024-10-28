@@ -1,6 +1,6 @@
 # Guest Journey Analysis
 
-##Overview
+## Overview
 This project is designed to analyze guest journey patterns in Universal Studios Singapore. By understanding these patterns, it is possible to identify opportunities for personalisation, optimise guest flow, and improve the overall guest experience.
 
 The project includes:
@@ -8,10 +8,10 @@ The project includes:
 - A predictive model that clusters guest behavior.
 - An API to serve model predictions and key insights.
 
-##Running the model
+## Running the model
 To run the model, follow these steps:
 
-###Run Docker compose
+### Run Docker compose
 ```bash
 docker-compose up -d
 ```
