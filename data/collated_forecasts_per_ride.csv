@@ -1,331 +1,309 @@
 ,attraction_name,date,forecast
-569,[Hollywood] Trolls Hug Time Jubilee,2024-10-22,7.502381333501605
-570,[Hollywood] Trolls Hug Time Jubilee,2024-10-23,7.034547080578645
-571,[Hollywood] Trolls Hug Time Jubilee,2024-10-24,7.66104281938112
-572,[Hollywood] Trolls Hug Time Jubilee,2024-10-25,7.754455135831903
-573,[Hollywood] Trolls Hug Time Jubilee,2024-10-26,8.271175833585714
-574,[Hollywood] Trolls Hug Time Jubilee,2024-10-27,0.1532788295751074
-575,[Hollywood] Trolls Hug Time Jubilee,2024-10-28,0.18183551472834955
-576,[Hollywood] Trolls Hug Time Jubilee,2024-10-29,0.06267273737429772
-577,[Hollywood] Trolls Hug Time Jubilee,2024-10-30,0.05835646822135608
-578,[Hollywood] Trolls Hug Time Jubilee,2024-10-31,0.057911880959082604
-579,[Hollywood] Trolls Hug Time Jubilee,2024-11-01,0.06151303248152023
-580,[Hollywood] Trolls Hug Time Jubilee,2024-11-02,0.0790355149444141
-581,[Hollywood] Trolls Hug Time Jubilee,2024-11-03,0.04359600032559884
-582,[Hollywood] Trolls Hug Time Jubilee,2024-11-04,0.057033919376256924
-583,[Hollywood] Trolls Hug Time Jubilee,2024-11-05,0.01821248791213874
-1157,[New York] Sesame Street Spaghetti Chase,2024-10-22,36.36667419390765
-1158,[New York] Sesame Street Spaghetti Chase,2024-10-23,34.09870920599527
-1159,[New York] Sesame Street Spaghetti Chase,2024-10-24,37.1357631308536
-1160,[New York] Sesame Street Spaghetti Chase,2024-10-25,37.58868264445859
-1161,[New York] Sesame Street Spaghetti Chase,2024-10-26,40.09315399332904
-1162,[New York] Sesame Street Spaghetti Chase,2024-10-27,0.7429981257304067
-1163,[New York] Sesame Street Spaghetti Chase,2024-10-28,0.8814224495129499
-1164,[New York] Sesame Street Spaghetti Chase,2024-10-29,0.3037980018395476
-1165,[New York] Sesame Street Spaghetti Chase,2024-10-30,0.28287535396442914
-1166,[New York] Sesame Street Spaghetti Chase,2024-10-31,0.2807204310981829
-1167,[New York] Sesame Street Spaghetti Chase,2024-11-01,0.29817640671826573
-1168,[New York] Sesame Street Spaghetti Chase,2024-11-02,0.3831143919834122
-1169,[New York] Sesame Street Spaghetti Chase,2024-11-03,0.21132607795187852
-1170,[New York] Sesame Street Spaghetti Chase,2024-11-04,0.2764647010991107
-1171,[New York] Sesame Street Spaghetti Chase,2024-11-05,0.08828286864270732
-1745,"[New York] Lights, Camera, Action!",2024-10-22,23.989786928997926
-1746,"[New York] Lights, Camera, Action!",2024-10-23,22.493586569319
-1747,"[New York] Lights, Camera, Action!",2024-10-24,24.497053769293228
-1748,"[New York] Lights, Camera, Action!",2024-10-25,24.795842947734112
-1749,"[New York] Lights, Camera, Action!",2024-10-26,26.44778205321873
-1750,"[New York] Lights, Camera, Action!",2024-10-27,0.49013293640063993
-1751,"[New York] Lights, Camera, Action!",2024-10-28,0.5814466860704269
-1752,"[New York] Lights, Camera, Action!",2024-10-29,0.20040596618695258
-1753,"[New York] Lights, Camera, Action!",2024-10-30,0.18660379033143026
-1754,"[New York] Lights, Camera, Action!",2024-10-31,0.18518222391415498
-1755,"[New York] Lights, Camera, Action!",2024-11-01,0.1966974134821506
-1756,"[New York] Lights, Camera, Action!",2024-11-02,0.2527284731473075
-1757,"[New York] Lights, Camera, Action!",2024-11-03,0.1394050336519363
-1758,"[New York] Lights, Camera, Action!",2024-11-04,0.18237493046520178
-1759,"[New York] Lights, Camera, Action!",2024-11-05,0.05823732081451773
-2333,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-22,47.48051917492201
-2334,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-23,44.519673987561184
-2335,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-24,48.48458460255474
-2336,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-25,49.07575769783514
-2337,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-26,52.34590885747548
-2338,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-27,0.970063176636617
-2339,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-28,1.1507998154394
-2340,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-29,0.39664374277165765
-2341,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-30,0.36932950797825964
-2342,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-31,0.36651210546124147
-2343,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-01,0.3893067685751159
-2344,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-02,0.5002009736415745
-2345,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-03,0.27591259974807636
-2346,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-04,0.3609587426258941
-2347,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-05,0.11526514291830897
-2921,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-22,50.564110058610545
-2922,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-23,47.41129879341709
-2923,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-24,51.6333999265973
-2924,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-25,52.262793796854865
-2925,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-26,55.74579073359618
-2926,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-27,1.0330548930866539
-2927,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-28,1.2255244768787141
-2928,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-29,0.42239824276098686
-2929,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-30,0.3933094372271671
-2930,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-31,0.390309882458823
-2931,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-01,0.4145838430030021
-2932,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-02,0.5326794651050375
-2933,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-03,0.2938270491579944
-2934,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-04,0.3843952596329869
-2935,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-05,0.1227485701835399
-3509,[Sci-Fi City] Accelerator,2024-10-22,24.25512394070385
-3510,[Sci-Fi City] Accelerator,2024-10-23,22.74270756528334
-3511,[Sci-Fi City] Accelerator,2024-10-24,24.768096341772356
-3512,[Sci-Fi City] Accelerator,2024-10-25,25.070059867644478
-3513,[Sci-Fi City] Accelerator,2024-10-26,26.740745762714635
-3514,[Sci-Fi City] Accelerator,2024-10-27,0.4955315157920142
-3515,[Sci-Fi City] Accelerator,2024-10-28,0.5878525400400632
-3516,[Sci-Fi City] Accelerator,2024-10-29,0.20261376400890618
-3517,[Sci-Fi City] Accelerator,2024-10-30,0.18866001131043
-3518,[Sci-Fi City] Accelerator,2024-10-31,0.18722181163452045
-3519,[Sci-Fi City] Accelerator,2024-11-01,0.19886482412962456
-3520,[Sci-Fi City] Accelerator,2024-11-02,0.25551276723346616
-3521,[Sci-Fi City] Accelerator,2024-11-03,0.1409410969745974
-3522,[Sci-Fi City] Accelerator,2024-11-04,0.1843843677565514
-3523,[Sci-Fi City] Accelerator,2024-11-05,0.058879133224648765
-4097,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-22,22.565902904230427
-4098,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-23,21.1586527063236
-4099,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-24,23.04310160388014
-4100,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-25,23.324099234147287
-4101,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-26,24.87823889956608
-4102,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-27,0.4610359645869031
-4103,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-28,0.5469307768773424
-4104,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-29,0.18850926443050461
-4105,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-30,0.17552703638108938
-4106,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-31,0.1741892213438238
-4107,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-01,0.18502145873658177
-4108,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-02,0.23772584979836256
-4109,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-03,0.13112988401776243
-4110,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-04,0.1715489490018189
-4111,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-05,0.05478045438823072
-4685,[Sci-Fi City] Sci-Fi Games,2024-10-22,6.40117723175483
-4686,[Sci-Fi City] Sci-Fi Games,2024-10-23,6.002034680194947
-4687,[Sci-Fi City] Sci-Fi Games,2024-10-24,6.536523757759453
-4688,[Sci-Fi City] Sci-Fi Games,2024-10-25,6.6161960832804265
-4689,[Sci-Fi City] Sci-Fi Games,2024-10-26,7.057132295213625
-4690,[Sci-Fi City] Sci-Fi Games,2024-10-27,0.1307813942243939
-4691,[Sci-Fi City] Sci-Fi Games,2024-10-28,0.15514760538750222
-4692,[Sci-Fi City] Sci-Fi Games,2024-10-29,0.05347415570666104
-4693,[Sci-Fi City] Sci-Fi Games,2024-10-30,0.04979167171033227
-4694,[Sci-Fi City] Sci-Fi Games,2024-10-31,0.04941188405148202
-4695,[Sci-Fi City] Sci-Fi Games,2024-11-01,0.05248493344928805
-4696,[Sci-Fi City] Sci-Fi Games,2024-11-02,0.06743539720748783
-4697,[Sci-Fi City] Sci-Fi Games,2024-11-03,0.03719748561669589
-4698,[Sci-Fi City] Sci-Fi Games,2024-11-04,0.04866309604915943
-4699,[Sci-Fi City] Sci-Fi Games,2024-11-05,0.01553951600982327
-5273,[Ancient Egypt] Revenge of the Mummy,2024-10-22,61.209227676922104
-5274,[Ancient Egypt] Revenge of the Mummy,2024-10-23,57.39213767660017
-5275,[Ancient Egypt] Revenge of the Mummy,2024-10-24,62.503634145711366
-5276,[Ancient Egypt] Revenge of the Mummy,2024-10-25,63.26582659016685
-5277,[Ancient Egypt] Revenge of the Mummy,2024-10-26,67.48136491696539
-5278,[Ancient Egypt] Revenge of the Mummy,2024-10-27,1.2505262278620692
-5279,[Ancient Egypt] Revenge of the Mummy,2024-10-28,1.4835076475942572
-5280,[Ancient Egypt] Revenge of the Mummy,2024-10-29,0.5113160882843681
-5281,[Ancient Egypt] Revenge of the Mummy,2024-10-30,0.4761022258626831
-5282,[Ancient Egypt] Revenge of the Mummy,2024-10-31,0.47247415202960413
-5283,[Ancient Egypt] Revenge of the Mummy,2024-11-01,0.5018550663013988
-5284,[Ancient Egypt] Revenge of the Mummy,2024-11-02,0.6448120615419867
-5285,[Ancient Egypt] Revenge of the Mummy,2024-11-03,0.3556785581516792
-5286,[Ancient Egypt] Revenge of the Mummy,2024-11-04,0.4653119316708859
-5287,[Ancient Egypt] Revenge of the Mummy,2024-11-05,0.148586872099547
-5861,[Ancient Egypt] Treasure Hunters,2024-10-22,19.042425623009553
-5862,[Ancient Egypt] Treasure Hunters,2024-10-23,17.855007703606812
-5863,[Ancient Egypt] Treasure Hunters,2024-10-24,19.445093762753668
-5864,[Ancient Egypt] Treasure Hunters,2024-10-25,19.682146197277717
-5865,[Ancient Egypt] Treasure Hunters,2024-10-26,20.993817798709994
-5866,[Ancient Egypt] Treasure Hunters,2024-10-27,0.38904507139998024
-5867,[Ancient Egypt] Treasure Hunters,2024-10-28,0.46152872167979797
-5868,[Ancient Egypt] Treasure Hunters,2024-10-29,0.15907366497122002
-5869,[Ancient Egypt] Treasure Hunters,2024-10-30,0.14811900868566152
-5870,[Ancient Egypt] Treasure Hunters,2024-10-31,0.14698918318826573
-5871,[Ancient Egypt] Treasure Hunters,2024-11-01,0.15613086900524614
-5872,[Ancient Egypt] Treasure Hunters,2024-11-02,0.20060520445639574
-5873,[Ancient Egypt] Treasure Hunters,2024-11-03,0.11065422021360784
-5874,[Ancient Egypt] Treasure Hunters,2024-11-04,0.14476186235468508
-5875,[Ancient Egypt] Treasure Hunters,2024-11-05,0.046226638069593706
-6449,[The Lost World] Canopy Flyer,2024-10-22,39.74416591692404
-6450,[The Lost World] Canopy Flyer,2024-10-23,37.265535001874795
-6451,[The Lost World] Canopy Flyer,2024-10-24,40.58463291713319
-6452,[The Lost World] Canopy Flyer,2024-10-25,41.07960306405161
-6453,[The Lost World] Canopy Flyer,2024-10-26,43.81651867804158
-6454,[The Lost World] Canopy Flyer,2024-10-27,0.8119870368949282
-6455,[The Lost World] Canopy Flyer,2024-10-28,0.9632576607769675
-6456,[The Lost World] Canopy Flyer,2024-10-29,0.33199981057850486
-6457,[The Lost World] Canopy Flyer,2024-10-30,0.3091328198900799
-6458,[The Lost World] Canopy Flyer,2024-10-31,0.30678036899071387
-6459,[The Lost World] Canopy Flyer,2024-11-01,0.3258542193779425
-6460,[The Lost World] Canopy Flyer,2024-11-02,0.418679226831032
-6461,[The Lost World] Canopy Flyer,2024-11-03,0.23094122086998561
-6462,[The Lost World] Canopy Flyer,2024-11-04,0.30212635695082346
-6463,[The Lost World] Canopy Flyer,2024-11-05,0.09647540296928031
-7037,[The Lost World] Dino-Soarin,2024-10-22,21.597001931099527
-7038,[The Lost World] Dino-Soarin,2024-10-23,20.25038415135374
-7039,[The Lost World] Dino-Soarin,2024-10-24,22.053673869179637
-7040,[The Lost World] Dino-Soarin,2024-10-25,22.322465597685312
-7041,[The Lost World] Dino-Soarin,2024-10-26,23.810200495101657
-7042,[The Lost World] Dino-Soarin,2024-10-27,0.44123907030072085
-7043,[The Lost World] Dino-Soarin,2024-10-28,0.5234449936903276
-7044,[The Lost World] Dino-Soarin,2024-10-29,0.18041465193730044
-7045,[The Lost World] Dino-Soarin,2024-10-30,0.1679897012844344
-7046,[The Lost World] Dino-Soarin,2024-10-31,0.16670883622202265
-7047,[The Lost World] Dino-Soarin,2024-11-01,0.17707643785810076
-7048,[The Lost World] Dino-Soarin,2024-11-02,0.22751784353660937
-7049,[The Lost World] Dino-Soarin,2024-11-03,0.12549907016358366
-7050,[The Lost World] Dino-Soarin,2024-11-04,0.16418254960920609
-7051,[The Lost World] Dino-Soarin,2024-11-05,0.052428138850838864
-7625,[The Lost World] Jurassic Park Rapid Adventure,2024-10-22,50.109806163513646
-7626,[The Lost World] Jurassic Park Rapid Adventure,2024-10-23,46.98545090760938
-7627,[The Lost World] Jurassic Park Rapid Adventure,2024-10-24,51.16952913435417
-7628,[The Lost World] Jurassic Park Rapid Adventure,2024-10-25,51.7932187181966
-7629,[The Lost World] Jurassic Park Rapid Adventure,2024-10-26,55.24513075780746
-7630,[The Lost World] Jurassic Park Rapid Adventure,2024-10-27,1.0237588193096792
-7631,[The Lost World] Jurassic Park Rapid Adventure,2024-10-28,1.2144896124131728
-7632,[The Lost World] Jurassic Park Rapid Adventure,2024-10-29,0.4185946262129934
-7633,[The Lost World] Jurassic Park Rapid Adventure,2024-10-30,0.389765667071581
-7634,[The Lost World] Jurassic Park Rapid Adventure,2024-10-31,0.3867963050588034
-7635,[The Lost World] Jurassic Park Rapid Adventure,2024-11-01,0.410848531349476
-7636,[The Lost World] Jurassic Park Rapid Adventure,2024-11-02,0.5278824799500822
-7637,[The Lost World] Jurassic Park Rapid Adventure,2024-11-03,0.2911797817263241
-7638,[The Lost World] Jurassic Park Rapid Adventure,2024-11-04,0.3809323785797967
-7639,[The Lost World] Jurassic Park Rapid Adventure,2024-11-05,0.12164194926849334
-8213,[The Lost World] WaterWorld,2024-10-22,17.955911437391233
-8214,[The Lost World] WaterWorld,2024-10-23,16.83633641810499
-8215,[The Lost World] WaterWorld,2024-10-24,18.33564202126719
-8216,[The Lost World] WaterWorld,2024-10-25,18.559140865913662
-8217,[The Lost World] WaterWorld,2024-10-26,19.796027895490873
-8218,[The Lost World] WaterWorld,2024-10-27,0.36684894430201875
-8219,[The Lost World] WaterWorld,2024-10-28,0.4351961529988721
-8220,[The Lost World] WaterWorld,2024-10-29,0.1499979825694139
-8221,[The Lost World] WaterWorld,2024-10-30,0.13966800634049995
-8222,[The Lost World] WaterWorld,2024-10-31,0.13860320013392735
-8223,[The Lost World] WaterWorld,2024-11-01,0.1472227753199817
-8224,[The Lost World] WaterWorld,2024-11-02,0.18915993608772605
-8225,[The Lost World] WaterWorld,2024-11-03,0.10434089639909545
-8226,[The Lost World] WaterWorld,2024-11-04,0.13650259979873836
-8227,[The Lost World] WaterWorld,2024-11-05,0.0435891847237888
-8801,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-22,
-8802,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-23,
-8803,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-24,
-8804,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-25,
-8805,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-26,
-8806,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-27,
-8807,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-28,
-8808,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-29,
-8809,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-30,
-8810,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-31,
-8811,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-01,
-8812,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-02,
-8813,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-03,
-8814,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-04,
-8815,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-05,
-9389,[The Lost World] Raptor Encounter with Blue,2024-10-22,5.46169128381596
-9390,[The Lost World] Raptor Encounter with Blue,2024-10-23,5.121121220414553
-9391,[The Lost World] Raptor Encounter with Blue,2024-10-24,5.577199363018991
-9392,[The Lost World] Raptor Encounter with Blue,2024-10-25,5.64519898606645
-9393,[The Lost World] Raptor Encounter with Blue,2024-10-26,6.021378699550692
-9394,[The Lost World] Raptor Encounter with Blue,2024-10-27,0.11158432946806864
-9395,[The Lost World] Raptor Encounter with Blue,2024-10-28,0.1323736760589157
-9396,[The Lost World] Raptor Encounter with Blue,2024-10-29,0.04562486036832522
-9397,[The Lost World] Raptor Encounter with Blue,2024-10-30,0.04248285081871512
-9398,[The Lost World] Raptor Encounter with Blue,2024-10-31,0.04215893018904682
-9399,[The Lost World] Raptor Encounter with Blue,2024-11-01,0.044780781111050855
-9400,[The Lost World] Raptor Encounter with Blue,2024-11-02,0.05753675814339566
-9401,[The Lost World] Raptor Encounter with Blue,2024-11-03,0.03173737570963541
-9402,[The Lost World] Raptor Encounter with Blue,2024-11-04,0.04151999483614296
-9403,[The Lost World] Raptor Encounter with Blue,2024-11-05,0.01325852869361822
-9977,[Far Far Away] Enchanted Airways,2024-10-22,40.05138663014637
-9978,[Far Far Away] Enchanted Airways,2024-10-23,37.55348512823558
-9979,[Far Far Away] Enchanted Airways,2024-10-24,40.89840846189203
-9980,[Far Far Away] Enchanted Airways,2024-10-25,41.39730437231041
-9981,[Far Far Away] Enchanted Airways,2024-10-26,44.15538658845287
-9982,[Far Far Away] Enchanted Airways,2024-10-27,0.8182854877234658
-9983,[Far Far Away] Enchanted Airways,2024-10-28,0.9707385782034192
-9984,[Far Far Away] Enchanted Airways,2024-10-29,0.3345812913180324
-9985,[Far Far Away] Enchanted Airways,2024-10-30,0.31153926584687736
-9986,[Far Far Away] Enchanted Airways,2024-10-31,0.3091646941224741
-9987,[Far Far Away] Enchanted Airways,2024-11-01,0.3283907030214617
-9988,[Far Far Away] Enchanted Airways,2024-11-02,0.4219348788730478
-9989,[Far Far Away] Enchanted Airways,2024-11-03,0.2327394807907389
-9990,[Far Far Away] Enchanted Airways,2024-11-04,0.30447843368046945
-9991,[Far Far Away] Enchanted Airways,2024-11-05,0.09722835043918053
-10565,[Far Far Away] Magic Potion Spin,2024-10-22,10.350889291673013
-10566,[Far Far Away] Magic Potion Spin,2024-10-23,9.705415363614408
-10567,[Far Far Away] Magic Potion Spin,2024-10-24,10.569793320131666
-10568,[Far Far Away] Magic Potion Spin,2024-10-25,10.698679855701618
-10569,[Far Far Away] Magic Potion Spin,2024-10-26,11.411573776476718
-10570,[Far Far Away] Magic Potion Spin,2024-10-27,0.21147025423083743
-10571,[Far Far Away] Magic Potion Spin,2024-10-28,0.25086956086850964
-10572,[Far Far Away] Magic Potion Spin,2024-10-29,0.08646652740659076
-10573,[Far Far Away] Magic Potion Spin,2024-10-30,0.08051195370925777
-10574,[Far Far Away] Magic Potion Spin,2024-10-31,0.07989783930260654
-10575,[Far Far Away] Magic Potion Spin,2024-11-01,0.08486690484504658
-10576,[Far Far Away] Magic Potion Spin,2024-11-02,0.10904151801900376
-10577,[Far Far Away] Magic Potion Spin,2024-11-03,0.06014752073984914
-10578,[Far Far Away] Magic Potion Spin,2024-11-04,0.07868717767663307
-10579,[Far Far Away] Magic Potion Spin,2024-11-05,0.02512710283197758
-11153,[Far Far Away] Puss In Boots Giant Journey,2024-10-22,
-11154,[Far Far Away] Puss In Boots Giant Journey,2024-10-23,
-11155,[Far Far Away] Puss In Boots Giant Journey,2024-10-24,
-11156,[Far Far Away] Puss In Boots Giant Journey,2024-10-25,
-11157,[Far Far Away] Puss In Boots Giant Journey,2024-10-26,
-11158,[Far Far Away] Puss In Boots Giant Journey,2024-10-27,
-11159,[Far Far Away] Puss In Boots Giant Journey,2024-10-28,
-11160,[Far Far Away] Puss In Boots Giant Journey,2024-10-29,
-11161,[Far Far Away] Puss In Boots Giant Journey,2024-10-30,
-11162,[Far Far Away] Puss In Boots Giant Journey,2024-10-31,
-11163,[Far Far Away] Puss In Boots Giant Journey,2024-11-01,
-11164,[Far Far Away] Puss In Boots Giant Journey,2024-11-02,
-11165,[Far Far Away] Puss In Boots Giant Journey,2024-11-03,
-11166,[Far Far Away] Puss In Boots Giant Journey,2024-11-04,
-11167,[Far Far Away] Puss In Boots Giant Journey,2024-11-05,
-11741,[Far Far Away] Donkey Live,2024-10-22,8.1047488743509
-11742,[Far Far Away] Donkey Live,2024-10-23,7.599357599066151
-11743,[Far Far Away] Donkey Live,2024-10-24,8.276156677549615
-11744,[Far Far Away] Donkey Live,2024-10-25,8.377069652010945
-11745,[Far Far Away] Donkey Live,2024-10-26,8.93526770408582
-11746,[Far Far Away] Donkey Live,2024-10-27,0.165577253962187
-11747,[Far Far Away] Donkey Live,2024-10-28,0.1964250156612897
-11748,[Far Far Away] Donkey Live,2024-10-29,0.06770130363055626
-11749,[Far Far Away] Donkey Live,2024-10-30,0.06303866079320739
-11750,[Far Far Away] Donkey Live,2024-10-31,0.06255837793710647
-11751,[Far Far Away] Donkey Live,2024-11-01,0.0664484950496131
-11752,[Far Far Away] Donkey Live,2024-11-02,0.08537694268088948
-11753,[Far Far Away] Donkey Live,2024-11-03,0.047093913758674374
-11754,[Far Far Away] Donkey Live,2024-11-04,0.06161002996076048
-11755,[Far Far Away] Donkey Live,2024-11-05,0.01967375753002522
-12329,[Far Far Away] Shrek 4-D Adventure,2024-10-22,30.493710321297215
-12330,[Far Far Away] Shrek 4-D Adventure,2024-10-23,28.591879499069133
-12331,[Far Far Away] Shrek 4-D Adventure,2024-10-24,31.138579738189968
-12332,[Far Far Away] Shrek 4-D Adventure,2024-10-25,31.518416762010983
-12333,[Far Far Away] Shrek 4-D Adventure,2024-10-26,33.6182708942649
-12334,[Far Far Away] Shrek 4-D Adventure,2024-10-27,0.6230132618652995
-12335,[Far Far Away] Shrek 4-D Adventure,2024-10-28,0.7390863769271239
-12336,[Far Far Away] Shrek 4-D Adventure,2024-10-29,0.25473911675900107
-12337,[Far Far Away] Shrek 4-D Adventure,2024-10-30,0.23719595795746518
-12338,[Far Far Away] Shrek 4-D Adventure,2024-10-31,0.2353878150052696
-12339,[Far Far Away] Shrek 4-D Adventure,2024-11-01,0.2500260983390177
-12340,[Far Far Away] Shrek 4-D Adventure,2024-11-02,0.32124722334396605
-12341,[Far Far Away] Shrek 4-D Adventure,2024-11-03,0.1772004936929399
-12342,[Far Far Away] Shrek 4-D Adventure,2024-11-04,0.2318201917726376
-12343,[Far Far Away] Shrek 4-D Adventure,2024-11-05,0.07402685574246573
-12917,[Far Far Away] Happily Ever After,2024-10-22,19.835131181398594
-12918,[Far Far Away] Happily Ever After,2024-10-23,18.598245897143304
-12919,[Far Far Away] Happily Ever After,2024-10-24,20.254594946527593
-12920,[Far Far Away] Happily Ever After,2024-10-25,20.501557047772494
-12921,[Far Far Away] Happily Ever After,2024-10-26,21.86769789766313
-12922,[Far Far Away] Happily Ever After,2024-10-27,0.40524491773042853
-12923,[Far Far Away] Happily Ever After,2024-10-28,0.48074282868057194
-12924,[Far Far Away] Happily Ever After,2024-10-29,0.1656965551663627
-12925,[Far Far Away] Happily Ever After,2024-10-30,0.15428460070632777
-12926,[Far Far Away] Happily Ever After,2024-10-31,0.1531097103450899
-12927,[Far Far Away] Happily Ever After,2024-11-01,0.1626300587449224
-12928,[Far Far Away] Happily Ever After,2024-11-02,0.20895699742377397
-12929,[Far Far Away] Happily Ever After,2024-11-03,0.11526054422645322
-12930,[Far Far Away] Happily Ever After,2024-11-04,0.15078823471500657
-12931,[Far Far Away] Happily Ever After,2024-11-05,0.04815072288738679
+0,[Hollywood] Trolls Hug Time Jubilee,2024-10-22,4.328193412063414
+1,[Hollywood] Trolls Hug Time Jubilee,2024-10-23,4.485268230969524
+2,[Hollywood] Trolls Hug Time Jubilee,2024-10-24,5.1068515011681175
+3,[Hollywood] Trolls Hug Time Jubilee,2024-10-25,4.97870371843059
+4,[Hollywood] Trolls Hug Time Jubilee,2024-10-26,6.24666562297398
+5,[Hollywood] Trolls Hug Time Jubilee,2024-10-27,3.9745764398722363
+6,[Hollywood] Trolls Hug Time Jubilee,2024-10-28,5.211615261170601
+7,[Hollywood] Trolls Hug Time Jubilee,2024-10-29,4.464048760061886
+8,[Hollywood] Trolls Hug Time Jubilee,2024-10-30,4.425571998252062
+9,[Hollywood] Trolls Hug Time Jubilee,2024-10-31,3.818782696994742
+10,[Hollywood] Trolls Hug Time Jubilee,2024-11-01,4.805946018589474
+11,[Hollywood] Trolls Hug Time Jubilee,2024-11-02,6.017150596570811
+12,[Hollywood] Trolls Hug Time Jubilee,2024-11-03,3.82560006205079
+13,[Hollywood] Trolls Hug Time Jubilee,2024-11-04,5.0148721553602345
+14,[New York] Sesame Street Spaghetti Chase,2024-10-22,20.980154347660424
+15,[New York] Sesame Street Spaghetti Chase,2024-10-23,21.741519760506012
+16,[New York] Sesame Street Spaghetti Chase,2024-10-24,24.754516325748302
+17,[New York] Sesame Street Spaghetti Chase,2024-10-25,24.1332976425557
+18,[New York] Sesame Street Spaghetti Chase,2024-10-26,30.279649115145855
+19,[New York] Sesame Street Spaghetti Chase,2024-10-27,19.265942503396502
+20,[New York] Sesame Street Spaghetti Chase,2024-10-28,25.262253654497233
+21,[New York] Sesame Street Spaghetti Chase,2024-10-29,21.638547080766408
+22,[New York] Sesame Street Spaghetti Chase,2024-10-30,21.452061411652593
+23,[New York] Sesame Street Spaghetti Chase,2024-10-31,18.510784126145314
+24,[New York] Sesame Street Spaghetti Chase,2024-11-01,23.295817883212262
+25,[New York] Sesame Street Spaghetti Chase,2024-11-02,29.1670298962721
+26,[New York] Sesame Street Spaghetti Chase,2024-11-03,18.543757601375642
+27,[New York] Sesame Street Spaghetti Chase,2024-11-04,24.308512781437532
+28,"[New York] Lights, Camera, Action!",2024-10-22,13.840020969376535
+29,"[New York] Lights, Camera, Action!",2024-10-23,14.342322639718104
+30,"[New York] Lights, Camera, Action!",2024-10-24,16.329955077607803
+31,"[New York] Lights, Camera, Action!",2024-10-25,15.920180482419395
+32,"[New York] Lights, Camera, Action!",2024-10-26,19.974756069560243
+33,"[New York] Lights, Camera, Action!",2024-10-27,12.709318722976432
+34,"[New York] Lights, Camera, Action!",2024-10-28,16.664949765991484
+35,"[New York] Lights, Camera, Action!",2024-10-29,14.274484869545182
+36,"[New York] Lights, Camera, Action!",2024-10-30,14.151468457755088
+37,"[New York] Lights, Camera, Action!",2024-10-31,12.211181365226821
+38,"[New York] Lights, Camera, Action!",2024-11-01,15.367774122409818
+39,"[New York] Lights, Camera, Action!",2024-11-02,19.24085461841005
+40,"[New York] Lights, Camera, Action!",2024-11-03,12.23294934249852
+41,"[New York] Lights, Camera, Action!",2024-11-04,16.035839340890025
+42,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-22,27.392057751293063
+43,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-23,28.385953072311814
+44,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-24,32.31965005884166
+45,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-25,31.5086553554325
+46,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-26,39.532881652389534
+47,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-27,25.15388974970463
+48,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-28,32.982692703090905
+49,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-29,28.251545856261377
+50,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-30,28.007943466970364
+51,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-10-31,24.167691829787064
+52,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-01,30.41520304147741
+53,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-02,38.08023189732517
+54,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-03,24.21098541258198
+55,[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON,2024-11-04,31.737468020424465
+56,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-22,29.17082699884399
+57,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-23,30.229478817682924
+58,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-24,34.41878011822542
+59,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-25,33.55507108835072
+60,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-26,42.10088506597052
+61,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-27,26.787505426907618
+62,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-28,35.12480568810383
+63,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-29,30.086421927274355
+64,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-30,29.827121303978842
+65,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-10-31,25.737525594801472
+66,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-01,32.390719597606875
+67,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-02,40.553999889057934
+68,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-03,25.78343887583371
+69,[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle,2024-11-04,33.79880224945495
+70,[Sci-Fi City] Accelerator,2024-10-22,13.992532927211606
+71,[Sci-Fi City] Accelerator,2024-10-23,14.50032205564262
+72,[Sci-Fi City] Accelerator,2024-10-24,16.509810682282712
+73,[Sci-Fi City] Accelerator,2024-10-25,16.095520784515124
+74,[Sci-Fi City] Accelerator,2024-10-26,20.19466570092191
+75,[Sci-Fi City] Accelerator,2024-10-27,12.84930315360837
+76,[Sci-Fi City] Accelerator,2024-10-28,16.8484907447158
+77,[Sci-Fi City] Accelerator,2024-10-29,14.43170633603731
+78,[Sci-Fi City] Accelerator,2024-10-30,14.30730981437707
+79,[Sci-Fi City] Accelerator,2024-10-31,12.345597845737023
+80,[Sci-Fi City] Accelerator,2024-11-01,15.537007737446304
+81,[Sci-Fi City] Accelerator,2024-11-02,19.45266495813674
+82,[Sci-Fi City] Accelerator,2024-11-03,12.367677112323424
+83,[Sci-Fi City] Accelerator,2024-11-04,16.212440250667417
+84,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-22,13.018393186443072
+85,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-23,13.490880204603274
+86,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-24,15.360510459722557
+87,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-25,14.97502078002447
+88,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-26,18.789025725613012
+89,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-27,11.954742352337501
+90,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-28,15.675538645175408
+91,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-29,13.426995465914645
+92,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-30,13.311310890385753
+93,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-10-31,11.486247967506326
+94,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-01,14.455380733913506
+95,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-02,18.09865666661764
+96,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-03,11.506635912328411
+97,[Sci-Fi City] TRANSFORMERS: Voices of Cybertron,2024-11-04,15.083753318469181
+98,[Sci-Fi City] Sci-Fi Games,2024-10-22,3.692943323766465
+99,[Sci-Fi City] Sci-Fi Games,2024-10-23,3.8269479153514845
+100,[Sci-Fi City] Sci-Fi Games,2024-10-24,4.357287867788017
+101,[Sci-Fi City] Sci-Fi Games,2024-10-25,4.247951364622887
+102,[Sci-Fi City] Sci-Fi Games,2024-10-26,5.32977391149624
+103,[Sci-Fi City] Sci-Fi Games,2024-10-27,3.3912104409359483
+104,[Sci-Fi City] Sci-Fi Games,2024-10-28,4.44667921962619
+105,[Sci-Fi City] Sci-Fi Games,2024-10-29,3.8088362314461106
+106,[Sci-Fi City] Sci-Fi Games,2024-10-30,3.775997539462588
+107,[Sci-Fi City] Sci-Fi Games,2024-10-31,3.2582637678404516
+108,[Sci-Fi City] Sci-Fi Games,2024-11-01,4.100542130073687
+109,[Sci-Fi City] Sci-Fi Games,2024-11-02,5.1339391592219945
+110,[Sci-Fi City] Sci-Fi Games,2024-11-03,3.2640953813186036
+111,[Sci-Fi City] Sci-Fi Games,2024-11-04,4.27880744388506
+112,[Ancient Egypt] Revenge of the Mummy,2024-10-22,35.31164664230356
+113,[Ancient Egypt] Revenge of the Mummy,2024-10-23,36.59308060304135
+114,[Ancient Egypt] Revenge of the Mummy,2024-10-24,41.66422771543775
+115,[Ancient Egypt] Revenge of the Mummy,2024-10-25,40.61875107155013
+116,[Ancient Egypt] Revenge of the Mummy,2024-10-26,50.9632603862899
+117,[Ancient Egypt] Revenge of the Mummy,2024-10-27,32.42660634471717
+118,[Ancient Egypt] Revenge of the Mummy,2024-10-28,42.51897423512873
+119,[Ancient Egypt] Revenge of the Mummy,2024-10-29,36.41995020676884
+120,[Ancient Egypt] Revenge of the Mummy,2024-10-30,36.105995644277286
+121,[Ancient Egypt] Revenge of the Mummy,2024-10-31,31.155449512998473
+122,[Ancient Egypt] Revenge of the Mummy,2024-11-01,39.20928251067505
+123,[Ancient Egypt] Revenge of the Mummy,2024-11-02,49.09074413609616
+124,[Ancient Egypt] Revenge of the Mummy,2024-11-03,31.21116868622331
+125,[Ancient Egypt] Revenge of the Mummy,2024-11-04,40.91382945499955
+126,[Ancient Egypt] Treasure Hunters,2024-10-22,10.985621070310522
+127,[Ancient Egypt] Treasure Hunters,2024-10-23,11.384236511542435
+128,[Ancient Egypt] Treasure Hunters,2024-10-24,12.961846560373811
+129,[Ancient Egypt] Treasure Hunters,2024-10-25,12.636547392466712
+130,[Ancient Egypt] Treasure Hunters,2024-10-26,15.85482298757302
+131,[Ancient Egypt] Treasure Hunters,2024-10-27,10.087920818072101
+132,[Ancient Egypt] Treasure Hunters,2024-10-28,13.227668399017599
+133,[Ancient Egypt] Treasure Hunters,2024-10-29,11.330254816186347
+134,[Ancient Egypt] Treasure Hunters,2024-10-30,11.23259162993294
+135,[Ancient Egypt] Treasure Hunters,2024-10-31,9.692522004853512
+136,[Ancient Egypt] Treasure Hunters,2024-11-01,12.197995003038557
+137,[Ancient Egypt] Treasure Hunters,2024-11-02,15.27220770003899
+138,[Ancient Egypt] Treasure Hunters,2024-11-03,9.709756826032928
+139,[Ancient Egypt] Treasure Hunters,2024-11-04,12.728255083786468
+140,[The Lost World] Canopy Flyer,2024-10-22,22.928299627919632
+141,[The Lost World] Canopy Flyer,2024-10-23,23.760395893752115
+142,[The Lost World] Canopy Flyer,2024-10-24,27.053190307912335
+143,[The Lost World] Canopy Flyer,2024-10-25,26.374284315149215
+144,[The Lost World] Canopy Flyer,2024-10-26,33.091413783314024
+145,[The Lost World] Canopy Flyer,2024-10-27,21.054947336175818
+146,[The Lost World] Canopy Flyer,2024-10-28,27.608071309661888
+147,[The Lost World] Canopy Flyer,2024-10-29,23.64788564718057
+148,[The Lost World] Canopy Flyer,2024-10-30,23.444096902907837
+149,[The Lost World] Canopy Flyer,2024-10-31,20.229728022746702
+150,[The Lost World] Canopy Flyer,2024-11-01,25.459064588102716
+151,[The Lost World] Canopy Flyer,2024-11-02,31.87550877426652
+152,[The Lost World] Canopy Flyer,2024-11-03,20.265721158700103
+153,[The Lost World] Canopy Flyer,2024-11-04,26.56579283969126
+154,[The Lost World] Dino-Soarin,2024-10-22,12.459428990661198
+155,[The Lost World] Dino-Soarin,2024-10-23,12.911582686037855
+156,[The Lost World] Dino-Soarin,2024-10-24,14.700903560365411
+157,[The Lost World] Dino-Soarin,2024-10-25,14.332005483428992
+158,[The Lost World] Dino-Soarin,2024-10-26,17.982035717983884
+159,[The Lost World] Dino-Soarin,2024-10-27,11.441460611316488
+160,[The Lost World] Dino-Soarin,2024-10-28,15.002476053657219
+161,[The Lost World] Dino-Soarin,2024-10-29,12.85048291121732
+162,[The Lost World] Dino-Soarin,2024-10-30,12.739718031123184
+163,[The Lost World] Dino-Soarin,2024-10-31,10.992954211162358
+164,[The Lost World] Dino-Soarin,2024-11-01,13.834682910849958
+165,[The Lost World] Dino-Soarin,2024-11-02,17.32132708762731
+166,[The Lost World] Dino-Soarin,2024-11-03,11.012600577285616
+167,[The Lost World] Dino-Soarin,2024-11-04,14.436109784855269
+168,[The Lost World] Jurassic Park Rapid Adventure,2024-10-22,28.908234759771027
+169,[The Lost World] Jurassic Park Rapid Adventure,2024-10-23,29.957301921630812
+170,[The Lost World] Jurassic Park Rapid Adventure,2024-10-24,34.10885911925746
+171,[The Lost World] Jurassic Park Rapid Adventure,2024-10-25,33.25296298650865
+172,[The Lost World] Jurassic Park Rapid Adventure,2024-10-26,41.721648873575276
+173,[The Lost World] Jurassic Park Rapid Adventure,2024-10-27,26.546370114200247
+174,[The Lost World] Jurassic Park Rapid Adventure,2024-10-28,34.80859617141224
+175,[The Lost World] Jurassic Park Rapid Adventure,2024-10-29,29.815557141857607
+176,[The Lost World] Jurassic Park Rapid Adventure,2024-10-30,29.558545689491137
+177,[The Lost World] Jurassic Park Rapid Adventure,2024-10-31,25.505815627401326
+178,[The Lost World] Jurassic Park Rapid Adventure,2024-11-01,32.09907992367834
+179,[The Lost World] Jurassic Park Rapid Adventure,2024-11-02,40.18868108652045
+180,[The Lost World] Jurassic Park Rapid Adventure,2024-11-03,25.551331851290932
+181,[The Lost World] Jurassic Park Rapid Adventure,2024-11-04,33.494517046574465
+182,[The Lost World] WaterWorld,2024-10-22,10.35877835641412
+183,[The Lost World] WaterWorld,2024-10-23,10.734719509486363
+184,[The Lost World] WaterWorld,2024-10-24,12.222374201303788
+185,[The Lost World] WaterWorld,2024-10-25,11.915623079040062
+186,[The Lost World] WaterWorld,2024-10-26,14.950460945865219
+187,[The Lost World] WaterWorld,2024-10-27,9.512374113931914
+188,[The Lost World] WaterWorld,2024-10-28,12.473011476512509
+189,[The Lost World] WaterWorld,2024-10-29,10.683841067538111
+190,[The Lost World] WaterWorld,2024-10-30,10.591793689306725
+191,[The Lost World] WaterWorld,2024-10-31,9.139584589158728
+192,[The Lost World] WaterWorld,2024-11-01,11.502118011517695
+193,[The Lost World] WaterWorld,2024-11-02,14.401102008452506
+194,[The Lost World] WaterWorld,2024-11-03,9.155797552736223
+195,[The Lost World] WaterWorld,2024-11-04,12.002104314253717
+196,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-22,0.0
+197,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-23,0.0
+198,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-24,0.0
+199,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-25,0.0
+200,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-26,0.0
+201,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-27,0.0
+202,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-28,0.0
+203,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-29,0.0
+204,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-30,0.0
+205,[The Lost World] Hatched! Featuring Dr. Rooney,2024-10-31,0.0
+206,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-01,0.0
+207,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-02,0.0
+208,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-03,0.0
+209,[The Lost World] Hatched! Featuring Dr. Rooney,2024-11-04,0.0
+210,[The Lost World] Raptor Encounter with Blue,2024-10-22,3.1508584742132197
+211,[The Lost World] Raptor Encounter with Blue,2024-10-23,3.265197422895126
+212,[The Lost World] Raptor Encounter with Blue,2024-10-24,3.717695878934228
+213,[The Lost World] Raptor Encounter with Blue,2024-10-25,3.624416988653141
+214,[The Lost World] Raptor Encounter with Blue,2024-10-26,4.547428429261273
+215,[The Lost World] Raptor Encounter with Blue,2024-10-27,2.8934396489273113
+216,[The Lost World] Raptor Encounter with Blue,2024-10-28,3.793981869034217
+217,[The Lost World] Raptor Encounter with Blue,2024-10-29,3.2497624079120286
+218,[The Lost World] Raptor Encounter with Blue,2024-10-30,3.2217415352098664
+219,[The Lost World] Raptor Encounter with Blue,2024-10-31,2.7799902054135504
+220,[The Lost World] Raptor Encounter with Blue,2024-11-01,3.498653349074122
+221,[The Lost World] Raptor Encounter with Blue,2024-11-02,4.38034817263316
+222,[The Lost World] Raptor Encounter with Blue,2024-11-03,2.7849876422938507
+223,[The Lost World] Raptor Encounter with Blue,2024-11-04,3.6507567760405486
+224,[Far Far Away] Enchanted Airways,2024-10-22,23.106287048507866
+225,[Far Far Away] Enchanted Airways,2024-10-23,23.94480893131627
+226,[Far Far Away] Enchanted Airways,2024-10-24,27.2631372108985
+227,[Far Far Away] Enchanted Airways,2024-10-25,26.579011962489343
+228,[Far Far Away] Enchanted Airways,2024-10-26,33.348036307416905
+229,[Far Far Away] Enchanted Airways,2024-10-27,21.21843999513085
+230,[Far Far Away] Enchanted Airways,2024-10-28,27.822417361432645
+231,[Far Far Away] Enchanted Airways,2024-10-29,23.83150221184114
+232,[Far Far Away] Enchanted Airways,2024-10-30,23.626079435732777
+233,[Far Far Away] Enchanted Airways,2024-10-31,20.38674028859786
+234,[Far Far Away] Enchanted Airways,2024-11-01,25.656717542237022
+235,[Far Far Away] Enchanted Airways,2024-11-02,32.1227415966767
+236,[Far Far Away] Enchanted Airways,2024-11-03,20.42311147881604
+237,[Far Far Away] Enchanted Airways,2024-11-04,26.772081439207334
+238,[Far Far Away] Magic Potion Spin,2024-10-22,5.9714028395756555
+239,[Far Far Away] Magic Potion Spin,2024-10-23,6.188071481609258
+240,[Far Far Away] Magic Potion Spin,2024-10-24,7.045604584495532
+241,[Far Far Away] Magic Potion Spin,2024-10-25,6.868807672470417
+242,[Far Far Away] Magic Potion Spin,2024-10-26,8.618062275354768
+243,[Far Far Away] Magic Potion Spin,2024-10-27,5.4834836576075325
+244,[Far Far Away] Magic Potion Spin,2024-10-28,7.1901418739542065
+245,[Far Far Away] Magic Potion Spin,2024-10-29,6.1587723308084765
+246,[Far Far Away] Magic Potion Spin,2024-10-30,6.10566731530326
+247,[Far Far Away] Magic Potion Spin,2024-10-31,5.268519206924161
+248,[Far Far Away] Magic Potion Spin,2024-11-01,6.630443462722348
+249,[Far Far Away] Magic Potion Spin,2024-11-02,8.301397068273475
+250,[Far Far Away] Magic Potion Spin,2024-11-03,5.277938822062701
+251,[Far Far Away] Magic Potion Spin,2024-11-04,6.9186941208674
+252,[Far Far Away] Puss In Boots Giant Journey,2024-10-22,0.0
+253,[Far Far Away] Puss In Boots Giant Journey,2024-10-23,0.0
+254,[Far Far Away] Puss In Boots Giant Journey,2024-10-24,0.0
+255,[Far Far Away] Puss In Boots Giant Journey,2024-10-25,0.0
+256,[Far Far Away] Puss In Boots Giant Journey,2024-10-26,0.0
+257,[Far Far Away] Puss In Boots Giant Journey,2024-10-27,0.0
+258,[Far Far Away] Puss In Boots Giant Journey,2024-10-28,0.0
+259,[Far Far Away] Puss In Boots Giant Journey,2024-10-29,0.0
+260,[Far Far Away] Puss In Boots Giant Journey,2024-10-30,0.0
+261,[Far Far Away] Puss In Boots Giant Journey,2024-10-31,0.0
+262,[Far Far Away] Puss In Boots Giant Journey,2024-11-01,0.0
+263,[Far Far Away] Puss In Boots Giant Journey,2024-11-02,0.0
+264,[Far Far Away] Puss In Boots Giant Journey,2024-11-03,0.0
+265,[Far Far Away] Puss In Boots Giant Journey,2024-11-04,0.0
+266,[Far Far Away] Donkey Live,2024-10-22,4.6755095624263445
+267,[Far Far Away] Donkey Live,2024-10-23,4.845293499854599
+268,[Far Far Away] Donkey Live,2024-10-24,5.516840921400618
+269,[Far Far Away] Donkey Live,2024-10-25,5.3784144812484636
+270,[Far Far Away] Donkey Live,2024-10-26,6.748304166533204
+271,[Far Far Away] Donkey Live,2024-10-27,4.293664446957367
+272,[Far Far Away] Donkey Live,2024-10-28,5.630031540156721
+273,[Far Far Away] Donkey Live,2024-10-29,4.822462497229409
+274,[Far Far Away] Donkey Live,2024-10-30,4.780938999667411
+275,[Far Far Away] Donkey Live,2024-10-31,4.125272101824387
+276,[Far Far Away] Donkey Live,2024-11-01,5.191865304998909
+277,[Far Far Away] Donkey Live,2024-11-02,6.500442148887767
+278,[Far Far Away] Donkey Live,2024-11-03,4.132777531093959
+279,[Far Far Away] Donkey Live,2024-11-04,5.417555676024907
+280,[Far Far Away] Shrek 4-D Adventure,2024-10-22,17.592221284122232
+281,[Far Far Away] Shrek 4-D Adventure,2024-10-23,18.23063327574376
+282,[Far Far Away] Shrek 4-D Adventure,2024-10-24,20.757073978182422
+283,[Far Far Away] Shrek 4-D Adventure,2024-10-25,20.23618348090842
+284,[Far Far Away] Shrek 4-D Adventure,2024-10-26,25.38993004028884
+285,[Far Far Away] Shrek 4-D Adventure,2024-10-27,16.15483679134064
+286,[Far Far Away] Shrek 4-D Adventure,2024-10-28,21.182841772781625
+287,[Far Far Away] Shrek 4-D Adventure,2024-10-29,18.14431186692062
+288,[Far Far Away] Shrek 4-D Adventure,2024-10-30,17.987926826921317
+289,[Far Far Away] Shrek 4-D Adventure,2024-10-31,15.521700604566753
+290,[Far Far Away] Shrek 4-D Adventure,2024-11-01,19.533955967550554
+291,[Far Far Away] Shrek 4-D Adventure,2024-11-02,24.457001218924255
+292,[Far Far Away] Shrek 4-D Adventure,2024-11-03,15.549284309692665
+293,[Far Far Away] Shrek 4-D Adventure,2024-11-04,20.383130027987683
+294,[Far Far Away] Happily Ever After,2024-10-22,11.443029160230562
+295,[Far Far Away] Happily Ever After,2024-10-23,11.858292347821928
+296,[Far Far Away] Happily Ever After,2024-10-24,13.501639562381484
+297,[Far Far Away] Happily Ever After,2024-10-25,13.162829887422602
+298,[Far Far Away] Happily Ever After,2024-10-26,16.515103070724233
+299,[Far Far Away] Happily Ever After,2024-10-27,10.50808569672161
+300,[Far Far Away] Happily Ever After,2024-10-28,13.778600190947744
+301,[Far Far Away] Happily Ever After,2024-10-29,11.802164298733098
+302,[Far Far Away] Happily Ever After,2024-10-30,11.70043558882775
+303,[Far Far Away] Happily Ever After,2024-10-31,10.096180755183171
+304,[Far Far Away] Happily Ever After,2024-11-01,12.706071940134125
+305,[Far Far Away] Happily Ever After,2024-11-02,15.90828775119571
+306,[Far Far Away] Happily Ever After,2024-11-03,10.11420815619684
+307,[Far Far Away] Happily Ever After,2024-11-04,13.258433206511736
