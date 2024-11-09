@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Studios Singapore Wait Times</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <style>
+        /* Basic styles for the page and table */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #map {
+            height: 600px; /* Set the height of the map */
+            margin-top: 20px; /* Add space above the map */
+        }
+        .toggle-btns {
+            margin: 10px 0;
+        }
+        .btn {
+            padding: 10px 15px;
+            margin-right: 5px;
+            border: none;
+            background-color: gray; /* Default button color */
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn.active {
+            background-color: #3b8b42; /* Darker color for active button */
+        }
+    </style>
+</head>
+<body>
+    <h1>Universal Studios Singapore Wait Times</h1>
+    <form action="/optimize" method="post" enctype="multipart/form-data">
+
+        <button type="submit">Run Simulation</button>
+    </form>
+
+    {% if result %}
+    <!-- Date Selection -->
+    <h2>Select Date:</h2>
+    <select id="dateDropdown" name="dateDropdown" onchange="updateDate()">
+        {% for date in available_dates %}
+            <option value="{{ date }}">{{ date }}</option>
+        {% endfor %}
+    </select>   
+    
+    <!-- Map Toggle Buttons -->
+    <div class="toggle-btns">
+        <button id="forecast-btn" class="btn active">Forecast Wait Time</button>
+        <button id="optimized-btn" class="btn">Optimized Wait Time</button>
+    </div>
+    
+    <div id="map"></div>
+
+    <!-- Added divs for displaying wait times tables -->
+    <div id="wait-times-table" style="display: block;">
+        <h2>Forecast Wait Times:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attraction Name</th>
+                    <th>Forecast Wait Time (mins)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in wait_times_table %}
+                <tr>
+                    <td>{{ item.attraction_name }}</td>
+                    <td>{{ item.forecast }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div id="opt-wait-times-table" style="display: none;">
+        <h2>Optimized Wait Times:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attraction Name</th>
+                    <th>Average Wait Time (mins)</th>
+                    <th>Wait Time Difference (mins)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in opt_wait_times_table %}
+                <tr>
+                    <td>{{ item.attraction_name }}</td>
+                    <td>{{ item.average_wait_time }}</td>
+                    <td>{{ item.wait_time_difference }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script>
+    
+        var wait_times = {{ wait_times | tojson }};
+        var optimized_wait_times = {{ opt_wait_times | tojson }};
+        var wait_time_diff = {{ wait_time_diff | tojson }};
+
+        function updateDate() {
+            const selectedDate = document.getElementById("dateDropdown").value;
+            const formData = new FormData();
+            formData.append("date", selectedDate);
+
+            fetch('/optimize', {
+                method: 'POST',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'  // AJAX request indicator
+                },
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Update the forecast wait times table
+                const forecastTableBody = document.querySelector("#wait-times-table tbody");
+                forecastTableBody.innerHTML = "";  // Clear current table data
+                data.wait_times_table.forEach(item => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `<td>${item.attraction_name}</td><td>${item.forecast}</td>`;
+                    forecastTableBody.appendChild(row);
+                });
+
+                // Update the optimized wait times table
+                const optimizedTableBody = document.querySelector("#opt-wait-times-table tbody");
+                optimizedTableBody.innerHTML = "";  // Clear current table data
+                data.opt_wait_times_table.forEach(item => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `<td>${item.attraction_name}</td><td>${item.average_wait_time}</td><td>${item.wait_time_difference}</td>`;
+                    optimizedTableBody.appendChild(row);
+                });
+
+                // Update global variables with new wait time data
+                wait_times = data.wait_times;
+                optimized_wait_times = data.opt_wait_times;
+                wait_time_diff = data.wait_time_diff;
+
+                // Check which button is active and update the relevant markers
+                if (document.getElementById("forecast-btn").classList.contains("active")) {
+                    updateMarkers(wait_times, false, false);  // Update forecast markers
+                } else if (document.getElementById("optimized-btn").classList.contains("active")) {
+                    updateMarkers(optimized_wait_times, true, true);  // Update optimized markers
+                }
+            });
+        }
+
+
+        // Node coordinates and names
+        var nodes = [
+            { coords: [1.2554, 103.8218], name: "[Hollywood] Trolls Hug Time Jubilee" },
+            { coords: [1.2550, 103.8214], name: "[New York] Sesame Street Spaghetti Chase" },
+            { coords: [1.2545, 103.8217], name: "[New York] Lights, Camera, Action!" },
+            { coords: [1.2531, 103.8218], name: "[Sci-Fi City] Battlestar Galatica: HUMAN vs CYLON" },
+            { coords: [1.2539, 103.8212], name: "[Sci-Fi City] TRANSFORMERS The Ride: The Ultimate 3D Battle" },
+            { coords: [1.2537, 103.8217], name: "[Sci-Fi City] Accelerator" },
+            { coords: [1.2538, 103.8215], name: "[Sci-Fi City] TRANSFORMERS: Voices of Cybertron" },
+            { coords: [1.2535, 103.8220], name: "[Sci-Fi City] Sci-Fi Games" },
+            { coords: [1.2531, 103.8232], name: "[Ancient Egypt] Revenge of the Mummy" },
+            { coords: [1.2539, 103.8231], name: "[Ancient Egypt] Treasure Hunters" },
+            { coords: [1.2538, 103.8243], name: "[The Lost World] Canopy Flyer" },
+            { coords: [1.2536, 103.8244], name: "[The Lost World] Dino-Soarin" },
+            { coords: [1.2533, 103.8239], name: "[The Lost World] Jurassic Park Rapid Adventure" },
+            { coords: [1.2532, 103.8248], name: "[The Lost World] WaterWorld" },
+            { coords: [1.2543, 103.8235], name: "[The Lost World] Hatched! Featuring Dr. Rooney" },
+            { coords: [1.2543, 103.8238], name: "[The Lost World] Raptor Encounter with Blue" },
+            { coords: [1.2549, 103.8234], name: "[Far Far Away] Enchanted Airways" },
+            { coords: [1.2547, 103.8240], name: "[Far Far Away] Magic Potion Spin" },
+            { coords: [1.2544, 103.8247], name: "[Far Far Away] Puss In Boots Giant Journey" },
+            { coords: [1.2546, 103.8245], name: "[Far Far Away] Donkey Live" },
+            { coords: [1.2550, 103.8239], name: "[Far Far Away] Shrek 4-D Adventure" },
+            { coords: [1.2550, 103.8236], name: "[Far Far Away] Happily Ever After" }
+        ];
+
+
+        // Initialize map
+        var map = L.map('map').setView([1.254, 103.823], 16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Define color mapping for each area prefix
+        function getColor(name) {
+            if (name.startsWith("[Hollywood]")) return "purple";
+            if (name.startsWith("[New York]")) return "green";
+            if (name.startsWith("[Sci-Fi City]")) return "blue";
+            if (name.startsWith("[Ancient Egypt]")) return "orange";
+            if (name.startsWith("[The Lost World]")) return "green";
+            if (name.startsWith("[Far Far Away]")) return "#c2185b"; // Dark pink
+            return "gray";  // Default color
+        }
+
+        // Function to get halo color based on wait_time_diff
+        function getHalo(waitTimeDiff) {
+            if (waitTimeDiff < 0) {
+                return "#4CAF50"; // Return green for negative differences
+            } else if (waitTimeDiff > 0) {
+                return "#F44336"; // Return red for positive differences
+            } else {
+                return "grey"; // Return grey for zero differences
+            }
+        }
+
+        function updateMarkers(waitTimeData, showHalo = false, showChange = false) {
+            map.eachLayer(function (layer) {
+                if (layer instanceof L.CircleMarker || layer instanceof L.Circle) {
+                    map.removeLayer(layer);
+                }
+            });
+
+            nodes.forEach(function(node, index) {
+                var color = getColor(node.name);
+
+                // Only add the glow effect if it's for optimized wait times
+                if (showHalo) {
+                    var haloColor = getHalo(wait_time_diff[index]); // Get halo color based on wait_time_diff
+                    L.circle(node.coords, {
+                        color: haloColor,
+                        radius: 20,
+                        fillOpacity: 0.4,
+                        opacity: 0.5 // Make the halo visible
+                    }).addTo(map);
+                }
+
+                var marker = L.circleMarker(node.coords, {
+                    color: color,
+                    radius: 10,
+                    fillOpacity: 0.6
+                }).addTo(map);
+
+                if (showChange) {
+                    marker.bindTooltip(node.name + 
+                        "<br>Wait Time: " + waitTimeData[index] + " mins" + 
+                        "<br>Wait Time Change: " + wait_time_diff[index] + " mins", {
+                        permanent: false,
+                        direction: "top",
+                        offset: [0, -10]
+                    });
+                } else {
+                    marker.bindTooltip(node.name + 
+                        "<br>Wait Time: " + waitTimeData[index] + " mins", {
+                        permanent: false,
+                        direction: "top",
+                        offset: [0, -10]
+                    });
+                }
+            });
+        }
+
+        // Display initial forecast wait times
+        updateMarkers(wait_times, false, false);
+
+        // Button event listeners for toggling wait times
+        document.getElementById("forecast-btn").addEventListener("click", function() {
+            updateMarkers(wait_times, false, false); // No halo effect for forecast
+            document.getElementById("forecast-btn").classList.add("active");
+            document.getElementById("optimized-btn").classList.remove("active");
+            // Show forecast table and hide optimized table
+            document.getElementById("wait-times-table").style.display = "block";
+            document.getElementById("opt-wait-times-table").style.display = "none";
+        });
+
+        document.getElementById("optimized-btn").addEventListener("click", function() {
+            updateMarkers(optimized_wait_times, true, true); // Halo effect for optimized
+            document.getElementById("optimized-btn").classList.add("active");
+            document.getElementById("forecast-btn").classList.remove("active");
+            // Show optimized table and hide forecast table
+            document.getElementById("wait-times-table").style.display = "none";
+            document.getElementById("opt-wait-times-table").style.display = "block";
+        });
+
+        </script>
+{% endif %}
+</body>
+</html>
