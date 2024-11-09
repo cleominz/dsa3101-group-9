@@ -8,7 +8,7 @@
 5. [Data Dictionary](#data-dictionary)
 6. [API Documentation](#api-documentation)
 
-## 1. Introduction
+## Introduction
 **Overview:** 
 This project aims to enhance guest experiences at Universal Studios Singapore through a comprehensive, data-driven analysis of the guest journey. By employing advanced data analysis, machine learning, and predictive modeling, we seek to identify bottlenecks, optimize guest flow, personalize experiences, and ultimately boost guest satisfaction while potentially increasing revenue and operational efficiency.
 
@@ -29,7 +29,7 @@ This project aims to enhance guest experiences at Universal Studios Singapore th
 - Li Ziyu Edwards
 - Lee Yan Le Ryan
 
-## 2. Usage Instructions
+## Usage Instructions
 To run/test the app locally, follow these step-by-step instructions:
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine using the command below:
