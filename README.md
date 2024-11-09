@@ -33,7 +33,7 @@ This project aims to enhance guest experiences at Universal Studios Singapore th
 To run/test the app locally, follow these step-by-step instructions:
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine using the command below:
-- git clone https://github.com/dsa3101-group9/dsa3101-group-9​
+- git clone https://github.com/dsa3101-group-9/dsa3101-group-9​
 
 ### Step 2: Install Dependencies
 Install required packages using:
@@ -44,7 +44,7 @@ Ensure that Docker is up and running. Navigate to the simulation directory and r
 - docker build -t flask-app
 - docker tun -p 5001:5001 flask-app
 
-## 3. Repository Structure
+## Repository Structure
 Below is an overview of the repository structure and what each folder/file contains:
 ```
 dsa3101-group-9/
@@ -90,10 +90,10 @@ dsa3101-group-9/
 ├── requirements.txt                        # Python dependencies for setting up the project
 └── .gitignore                              # Specifies files and folders to ignore in Git
 ```
-## 4. Data Sources
+## Data Sources
 
 
-## 5. Data Dictionary
+## Data Dictionary
 
 ### 1. Dataset: `final_synthetic_data.csv`
 
@@ -147,7 +147,7 @@ dsa3101-group-9/
 ### 2. Dataset: 
 
 
-## 6. API Documentation
+## API Documentation
 
 ## Additional Notes
 Feel free to experiment with the model and contribute to the project! If you encounter any issues or have suggestions, please visit the Issues section or submit a pull request.
