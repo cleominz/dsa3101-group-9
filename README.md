@@ -33,7 +33,7 @@ This project aims to enhance guest experiences at Universal Studios Singapore th
 To run/test the app locally, follow these step-by-step instructions:
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine using the command below:
-- git clone https://github.com/dsa3101-group-9/dsa3101-group-9​
+- git clone https://github.com/cleominz/dsa3101-group-9.git
 
 ### Step 2: Install Dependencies
 Install required packages using:
