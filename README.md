@@ -41,7 +41,7 @@ Install required packages using:
 
 ### Step 3: Running the Application
 Ensure that Docker is up and running. Navigate to the simulation directory and run the commands below: 
-- docker build -t flask-app
+- docker build -t flask-app .
 - docker tun -p 5001:5001 flask-app
 
 ## Repository Structure
