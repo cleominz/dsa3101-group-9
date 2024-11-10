@@ -76,8 +76,8 @@ dsa3101-group-9/
 │   ├── A2.ipynb                            # Additional analysis by Subgroup A
 │   └── A3.ipynb                            # Further analysis and reporting by Subgroup A
 ├── subgroup B/                             # Folder for Subgroup B's work
-│   ├── B1_demand_forecasting_model.ipynb   # Demand forecasting model
 │   ├── B1_wait_data_simple_analysis_and_generation.ipynb   # Analysis and generation of wait time data
+│   ├── B1_demand_forecasting_model.ipynb   # Demand forecasting model
 │   ├── B2_optimise_guest_experience.ipynb  # Optimisation model to enhance guest experience
 │   ├── B3.ipynb                            # Further analysis by Subgroup B
 │   └── optional_B2.ipynb                   # Optional analysis or experiments by Subgroup B
@@ -168,6 +168,13 @@ dsa3101-group-9/
 |-------------------|------------|------------------------------------------------------------------------------|----------------------|
 | `date`              | object     | The date of the observation in string format (YYYY-MM-DD).                    | "2024-11-10", "2024-11-11" |
 | `precipitation`     | float64    | The amount of precipitation (in millimeters) recorded on the given date.      | 0.0, 5.2             |
+
+### 6. Dataset:  `real_wait_time_data.csv`
+| Column Name       | Data Type  | Description                                                                | Example Values             |
+|-------------------|------------|----------------------------------------------------------------------------|----------------------------|
+| `Park`              | object     | The park name.                                                              | "Universal Studios Singapore	"      |
+| `Date/Time`         | object     | The date and time of observation.                                           | "2023-01-02T11:00:00Z"              |
+| `Wait Time`         | int64      | The wait time in minutes.                                                   | 5, 8                     |
 
 ## API Documentation
 
