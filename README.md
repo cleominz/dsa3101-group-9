@@ -50,11 +50,11 @@ Below is an overview of the repository structure and what each folder/file conta
 dsa3101-group-9/
 ├── data/                                   # Folder for storing raw data files
 │   ├── collated_forecasts_per_ride.csv     # Contains predicted forecast data from B1 analysis
-│   ├── combined_wait_time_df.csv           # Contains combined wait time
+│   ├── combined_wait_time_df.csv           # Contains synthetic wait time data from 2019-2022 and real wait time data from 2023-2024
 │   ├── daily_avg_wait_time_df.csv          # Contains daily average wait time
 │   ├── final_synthetic_data.csv            # Contains synthetic data based on real survey respondents 
 │   ├── sentosa_weather_df.csv              # Contains weather data
-│   └── waittime_combined.csv               # Contains wait time data
+│   └── real_wait_time_data.csv             # Contains real wait time data from 2023-2024
 ├── notebooks/                              # Jupyter Notebooks for data analysis and visualization
 │   └── eda.ipynb                           # Exploratory Data Analysis (EDA) notebook
 ├── sql/                                    # SQL scripts for database setup and data management
