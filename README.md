@@ -90,8 +90,33 @@ dsa3101-group-9/
 
 ## Data Dictionary
 
-### 1. Dataset: `final_synthetic_data.csv`
+### 1. Dataset: `collated_forecasts_per_ride.csv`
+| Column Name        | Data Type  | Description                                                              | Example Values        |
+|--------------------|------------|--------------------------------------------------------------------------|-----------------------|
+| `attraction_name`    | object     | Name of the attraction for which the wait time is forecasted.         | "[Hollywood] Trolls Hug Time Jubilee", "[New York] Sesame Street Spaghetti Chase" |
+| `date`               | object     | Date for which the wait time forecast is made    | "2024-10-24", "2024-10-25" |
+| `forecast`           | float64    | The predicted wait time (in minutes) for the attraction on the given date.| 5.1068515011681200           |
 
+### 2. Dataset: `combined_wait_time_df.csv`
+| Column Name       | Data Type  | Description                                                                | Example Values             |
+|-------------------|------------|----------------------------------------------------------------------------|----------------------------|
+| `datetime`          | object     | The full datetime value.                                              | "2019-01-01 08:45:00+00:00"      |
+| `year`              | int64      | The year of the observation.                                                | 2019, 2020                 |
+| `month`             | int64      | The month of the observation (1 = January, 12 = December).                  | 11, 12                     |
+| `day_of_week`       | int64      | The day of the week (1 = Monday, 7 = Sunday).                              | 0, 1, 2                    |
+| `date`              | object     | The date in string format (YYYY-MM-DD).                                     | "2024-05-18", "2024-05-19" |
+| `time`              | object     | The time portion of the observation in string format (HH:MM:SS).            | "08:30:00", "14:45:00"     |
+| `hour`              | int64      | The hour of the observation (0 to 23).                                      | 8, 14                      |
+| `wait_time`         | float64    | The recorded wait time in minutes.                                          | 8.352688081432390                 |
+
+### 3. Dataset: `daily_avg_wait_time_df.csv`
+| Column Name         | Data Type  | Description                                                              | Example Values       |
+|---------------------|------------|--------------------------------------------------------------------------|----------------------|
+| `date`                | object     | The date of the observation in string format (YYYY-MM-DD).               | "2024-11-10", "2024-11-11" |
+| `avg_wait_time_day`   | float64    | The average wait time for the day, in minutes.                           | 12.5, 18.0           |
+| `wait_time_rating`    | int64      | A rating indicating the quality of the wait time (1-5 scale).     | 3, 4, 5              |
+
+### 4. Dataset: `final_synthetic_data.csv`
 | Column Name                                                                                                 | Data Type   | Description                                                                                     | Example Values                      |
 |------------------------------------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------|------------------------------------|
 | `age`                                                                                                      | object      | Age of the respondent                                                                            | "18-25", "26-35"                   |
@@ -138,9 +163,11 @@ dsa3101-group-9/
 | `recommendation_likelihood`                                                                               | object      | Likelihood of recommending the park                                                             | "Yes", "No"               |
 | `additional_comments`                                                                                     | object      | Free-text comments provided by respondents                                                     | "lesser wait time"                |
 | `source`                                                                                                  | object      | Source of data                                                                      | "real", "synthetic"            |
-
-### 2. Dataset: 
-
+### 5. Dataset: `sentosa_weather_df.csv`
+| Column Name       | Data Type  | Description                                                                  | Example Values       |
+|-------------------|------------|------------------------------------------------------------------------------|----------------------|
+| `date`              | object     | The date of the observation in string format (YYYY-MM-DD).                    | "2024-11-10", "2024-11-11" |
+| `precipitation`     | float64    | The amount of precipitation (in millimeters) recorded on the given date.      | 0.0, 5.2             |
 
 ## API Documentation
 
