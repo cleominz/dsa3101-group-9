@@ -49,18 +49,12 @@ Below is an overview of the repository structure and what each folder/file conta
 ```
 dsa3101-group-9/
 ├── data/                                   # Folder for storing raw data files
-│   ├── Survey Response Data/               # Contains survey responses from participants
-│   │   ├── aaaa.csv                        # Raw survey response data (file example)
-│   │   └── aaa.csv                         # Raw survey response data (file example)
-│   ├── Tripadvisor Reviews/                # Contains reviews data scraped from Tripadvisor
-│   │   ├── aaaa.csv                        # Tripadvisor reviews dataset (file example)
-│   │   └── aaa.csv                         # Tripadvisor reviews dataset (file example)
-│   ├── Wait Time Data/                     # Historical wait times for various attractions
-│   │   ├── aaaa.csv                        # Attraction wait time data (file example)
-│   │   └── aaa.csv                         # Attraction wait time data (file example)
-│   └── Weather Data/                       # Weather data related to attraction visits
-│       ├── aaaa.csv                        # Historical weather data (file example)
-│       └── aaa.csv                         # Historical weather data (file example)
+│   ├── collated_forecasts_per_ride.csv     # Contains predicted forecast data from B1 analysis
+│   ├── combined_wait_time_df.csv           # Contains combined wait time
+│   ├── daily_avg_wait_time_df.csv          # Contains daily average wait time
+│   ├── final_synthetic_data.csv            # Contains synthetic data based on real survey respondents 
+│   ├── sentosa_weather_df.csv              # Contains weather data
+│   └── waittime_combined.csv               # Contains wait time data
 ├── notebooks/                              # Jupyter Notebooks for data analysis and visualization
 │   └── eda.ipynb                           # Exploratory Data Analysis (EDA) notebook
 ├── sql/                                    # SQL scripts for database setup and data management
@@ -82,8 +76,9 @@ dsa3101-group-9/
 │   ├── A2.ipynb                            # Additional analysis by Subgroup A
 │   └── A3.ipynb                            # Further analysis and reporting by Subgroup A
 ├── subgroup B/                             # Folder for Subgroup B's work
-│   ├── B1.ipynb                            # Data analysis and insights by Subgroup B
-│   ├── b2_optimise_guest_experience.ipynb                            # Additional analysis by Subgroup B
+│   ├── B1_demand_forecasting_model.ipynb   # Demand forecasting model
+│   ├── B1_wait_data_simple_analysis_and_generation.ipynb   # Analysis and generation of wait time data
+│   ├── B2_optimise_guest_experience.ipynb  # Optimisation model to enhance guest experience
 │   ├── B3.ipynb                            # Further analysis by Subgroup B
 │   └── optional_B2.ipynb                   # Optional analysis or experiments by Subgroup B
 ├── README.md                               # Project documentation (this file)
