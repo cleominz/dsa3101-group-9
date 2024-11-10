@@ -172,7 +172,7 @@ dsa3101-group-9/
 ### 6. Dataset:  `real_wait_time_data.csv`
 | Column Name       | Data Type  | Description                                                                | Example Values             |
 |-------------------|------------|----------------------------------------------------------------------------|----------------------------|
-| `Park`              | object     | The park name.                                                              | "Universal Studios Singapore	"      |
+| `Park`              | object     | The park name.                                                              | "Universal Studios Singapore"      |
 | `Date/Time`         | object     | The date and time of observation.                                           | "2023-01-02T11:00:00Z"              |
 | `Wait Time`         | int64      | The wait time in minutes.                                                   | 5, 8                     |
 
