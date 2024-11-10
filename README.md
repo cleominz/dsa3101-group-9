@@ -83,7 +83,7 @@ dsa3101-group-9/
 │   └── A3.ipynb                            # Further analysis and reporting by Subgroup A
 ├── subgroup B/                             # Folder for Subgroup B's work
 │   ├── B1.ipynb                            # Data analysis and insights by Subgroup B
-│   ├── B2.ipynb                            # Additional analysis by Subgroup B
+│   ├── b2_optimise_guest_experience.ipynb                            # Additional analysis by Subgroup B
 │   ├── B3.ipynb                            # Further analysis by Subgroup B
 │   └── optional_B2.ipynb                   # Optional analysis or experiments by Subgroup B
 ├── README.md                               # Project documentation (this file)
