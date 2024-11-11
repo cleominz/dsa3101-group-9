@@ -48,43 +48,43 @@ Ensure that Docker is up and running. Navigate to the simulation directory and r
 Below is an overview of the repository structure and what each folder/file contains:
 ```
 dsa3101-group-9/
-├── data/                                   # Folder for storing raw data files
-│   ├── collated_forecasts_per_ride.csv     # Contains predicted forecast data from B1 analysis
-│   ├── combined_wait_time_df.csv           # Contains synthetic wait time data from 2019-2022 and real wait time data from 2023-2024
-│   ├── daily_avg_wait_time_df.csv          # Contains daily average wait time
-│   ├── final_synthetic_data.csv            # Contains synthetic data based on real survey respondents 
-│   ├── sentosa_weather_df.csv              # Contains weather data
-│   └── real_wait_time_data.csv             # Contains real wait time data from 2023-2024
-├── notebooks/                              # Jupyter Notebooks for data analysis and visualization
-│   └── eda.ipynb                           # Exploratory Data Analysis (EDA) notebook
-├── sql/                                    # SQL scripts for database setup and data management
-│   ├── db-schema.sql                       # Defines the database schema
-│   ├── db-data.sql                         # Script to populate the database with data
-│   └── exploration of final_synthetic_data.sql    # Script to explore the final_synthetic_data.csv using SQL
-├── simulation/                             # Folder for simulation, optimization, and app scripts
-│   ├── data/                               # Processed data used for simulation
-│   │   ├── attendance_df.csv               # Processed attendance data for simulations
-│   │   ├── collated_forecasts_per_ride.csv # Forecasted wait times per ride
-│   │   └── simulation_df.csv               # Collated simulation input data
-│   ├── templates/                          # HTML templates for Flask web application
-│   │   └── index.html                      # Main page template with map and date selector
-│   ├── Dockerfile                          # Docker configuration for containerizing the app
-│   ├── requirements.txt                    # Python dependencies for the project
-│   ├── app.py                              # Flask application entry point
-│   └── simulation.py                       # Python script for running simulations and optimizations
-├── subgroup A/                             # Folder for Subgroup A's work
-│   ├── A1.ipynb                            # Data analysis and insights by Subgroup A
-│   ├── A2.ipynb                            # Additional analysis by Subgroup A
-│   └── A3.ipynb                            # Further analysis and reporting by Subgroup A
-├── subgroup B/                             # Folder for Subgroup B's work
+├── data/                                                   # Folder for storing raw data files
+│   ├── collated_forecasts_per_ride.csv                     # Contains predicted forecast data from B1 analysis
+│   ├── combined_wait_time_df.csv                           # Contains synthetic wait time data from 2019-2022 and real wait time data from 2023-2024
+│   ├── daily_avg_wait_time_df.csv                          # Contains daily average wait time
+│   ├── final_synthetic_data.csv                            # Contains synthetic data based on real survey respondents 
+│   ├── sentosa_weather_df.csv                              # Contains weather data
+│   └── real_wait_time_data.csv                             # Contains real wait time data from 2023-2024
+├── notebooks/                                              # Jupyter Notebooks for data analysis and visualization
+│   └── eda.ipynb                                           # Exploratory Data Analysis (EDA) notebook
+├── sql/                                                    # SQL scripts for database setup and data management
+│   ├── db-schema.sql                                       # Defines the database schema
+│   ├── db-data.sql                                         # Script to populate the database with data
+│   └── exploration of final_synthetic_data.sql             # Script to explore the final_synthetic_data.csv using SQL
+├── simulation/                                             # Folder for simulation, optimization, and app scripts
+│   ├── data/                                               # Processed data used for simulation
+│   │   ├── attendance_df.csv                               # Processed attendance data for simulations
+│   │   ├── collated_forecasts_per_ride.csv                 # Forecasted wait times per ride
+│   │   └── simulation_df.csv                               # Collated simulation input data
+│   ├── templates/                                          # HTML templates for Flask web application
+│   │   └── index.html                                      # Main page template with map and date selector
+│   ├── Dockerfile                                          # Docker configuration for containerizing the app
+│   ├── requirements.txt                                    # Python dependencies for the project
+│   ├── app.py                                              # Flask application entry point
+│   └── simulation.py                                       # Python script for simulation
+├── subgroup A/                                             # Folder for Subgroup A's work
+│   ├── A1.ipynb                                            # Data analysis and insights by Subgroup A
+│   ├── A2.ipynb                                            # Additional analysis by Subgroup A
+│   └── A3.ipynb                                            # Further analysis and reporting by Subgroup A
+├── subgroup B/                                             # Folder for Subgroup B's work
 │   ├── B1_wait_data_simple_analysis_and_generation.ipynb   # Analysis and generation of wait time data
-│   ├── B1_demand_forecasting_model.ipynb   # Demand forecasting model
-│   ├── B2_optimise_guest_experience.ipynb  # Optimisation model to enhance guest experience
-│   ├── B3.ipynb                            # Further analysis by Subgroup B
-│   └── optional_B2.ipynb                   # Optional analysis or experiments by Subgroup B
-├── README.md                               # Project documentation (this file)
-├── requirements.txt                        # Python dependencies for setting up the project
-└── .gitignore                              # Specifies files and folders to ignore in Git
+│   ├── B1_demand_forecasting_model.ipynb                   # Demand forecasting model
+│   ├── B2_optimise_guest_experience.ipynb                  # Optimisation model to enhance guest experience
+│   ├── B3_resource_allocation_optimization.ipynb           # Optimisation model to improve resource allocation
+│   └── optional_B2_AI_queue_system.ipynb                   # Implementation of an AI driven queue system
+├── README.md                                               # Project documentation (this file)
+├── requirements.txt                                        # Python dependencies for setting up the project
+└── .gitignore                                              # Specifies files and folders to ignore in Git
 ```
 ## Data Sources
 
