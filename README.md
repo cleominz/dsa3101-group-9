@@ -59,7 +59,8 @@ dsa3101-group-9/
 │   └── eda.ipynb                           # Exploratory Data Analysis (EDA) notebook
 ├── sql/                                    # SQL scripts for database setup and data management
 │   ├── db-schema.sql                       # Defines the database schema
-│   └── db-data.sql                         # Script to populate the database with data
+│   ├── db-data.sql                         # Script to populate the database with data
+│   └── exploration of final_synthetic_data.sql    # Script to explore the final_synthetic_data.csv using SQL
 ├── simulation/                             # Folder for simulation, optimization, and app scripts
 │   ├── data/                               # Processed data used for simulation
 │   │   ├── attendance_df.csv               # Processed attendance data for simulations
