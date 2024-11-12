@@ -1,0 +1,70 @@
+gender,occupation,visitor_profile,ticket_purchase_method,ticket_type,special_event_ticket,visitor_type,attraction_overall_experience,overall_staff_service,overall_satisfaction,return_likelihood,weighted_food_shopping_satisfaction_score,total_spend,weighted_amenities_satisfaction_score,weighted_entry_experience_score,thrill_seeker_level,age_group
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",Regular ticket with Express Pass,No,Group,0.5,0.75,0.75,0.5,0.42084422304603,1.0,0.7952641755320691,0.5506769513521742,1.0,Young Adults
+Female,Employed,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,1.0,1.0,1.0,1.0,0.5711405099016933,0.0,1.0,0.776779557328333,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,1.0,0.5,0.75,1.0,0.6850334939363842,1.0,0.31050169379107273,1.0,0.5,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.75,0.75,1.0,0.42084422304603,0.0,0.7952641755320691,0.578542604724181,1.0,Young Adults
+Male,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,0.75,0.5,0.5,0.4295814890369844,0.0,0.614207473403793,0.8179313004841235,0.5,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,0.25,0.75,0.5,0.3809189328102871,0.0,0.6962942203872798,0.6637282543402536,0.0,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.5,0.5,0.0,0.28992529023574287,0.6666666666666666,0.7952641755320691,0.8179313004841235,0.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.5,0.75,0.75,0.5,0.5627334639554435,0.3333333333333333,0.40947164893586196,0.704879997496044,0.5,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Family,1.0,1.0,0.75,0.5,0.7993845551653751,2.0,0.6210033875821455,0.7929478104166088,0.5,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.75,1.0,1.0,0.46007470976425713,0.6666666666666666,0.7199733427269348,0.7489139039563264,0.5,Young Adults
+Female,Student,Singaporean,Others,One-day regular ticket,No,Family,0.75,0.75,0.75,1.0,0.5799961390542557,0.6666666666666666,0.5152375182590038,0.8017630473958478,1.0,Young Adults
+Male,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Family,1.0,1.0,1.0,1.0,0.9153922181466301,0.6666666666666666,1.0,0.6754256546239847,1.0,Young Adults
+Male,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,0.75,1.0,1.0,0.67084422304603,1.6666666666666665,0.9010300448552109,0.8017630473958478,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,1.0,1.0,1.0,1.0,0.534618843919113,1.0,0.5152375182590038,1.0,1.0,Young Adults
+Female,Student,Tourist,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.5,0.75,0.75,1.0,0.3212588730633013,1.0,0.7952641755320691,0.647560001251978,1.0,Young Adults
+Female,Employed,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,1.0,0.75,1.0,0.4115305166991678,1.6666666666666665,1.0,1.0,0.5,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,1.0,0.75,1.0,0.6544219100475037,0.0,0.7952641755320691,0.7738973940238412,0.5,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,1.0,1.0,0.5,0.6677708188375722,0.0,1.0,0.9309826034722029,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,0.75,0.75,0.5,0.48369605016308165,0.3333333333333333,0.5152375182590038,0.8869486970119206,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.5,0.75,0.5,0.5,0.5423038909266849,0.6666666666666666,0.40947164893586196,0.7327456508680508,1.0,Young Adults
+Female,Student,Singaporean,Physically at the entrance,One-day regular ticket,No,Group,0.75,0.75,0.75,1.0,0.3127334639554436,0.6666666666666666,0.5152375182590038,0.8179313004841235,1.0,Young Adults
+Female,Student,Singaporean,Others,One-day regular ticket,Yes,Group,0.75,0.75,0.75,0.5,0.5745441341548558,0.6666666666666666,0.614207473403793,0.7489139039563264,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,1.0,1.0,1.0,0.67084422304603,1.0,0.7952641755320691,0.9309826034722029,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.5,0.5,0.75,0.0,0.5375738849659629,0.6666666666666666,0.40947164893586196,0.8179313004841235,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.75,0.75,1.0,0.5539961979644892,1.6666666666666665,0.7952641755320691,0.4654913017361014,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.75,0.75,0.5,0.25,0.0,0.614207473403793,0.6637282543402536,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,0.75,0.75,0.0,0.5,0.6666666666666666,0.6962942203872798,0.8869486970119206,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.5,1.0,1.0,1.0,0.75,0.6666666666666666,0.8189432978717239,0.9309826034722029,0.5,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.75,0.75,0.5,0.5118106701994122,0.6666666666666666,0.7952641755320691,0.7489139039563264,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,1.0,1.0,0.75,1.0,0.5,0.0,0.6074115592254404,1.0,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,0.5,0.5,0.5,0.41539221814663013,0.0,0.7199733427269348,0.7327456508680508,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,0.5,0.75,0.5,0.5627334639554435,1.0,0.9010300448552109,0.5506769513521742,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,1.0,1.0,1.0,1.0,0.6966074378125805,0.6666666666666666,1.0,1.0,0.5,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,0.75,0.75,1.0,0.5258815779281585,0.6666666666666666,0.40947164893586196,0.635862600968247,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.75,0.75,1.0,0.7164333750642694,1.6666666666666665,0.7952641755320691,0.8179313004841235,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,0.5,0.5,1.0,0.4835776870014736,1.0,0.40947164893586196,0.3964739052083044,1.0,Young Adults
+Female,Employed,Singaporean,Physically at the entrance,One-day regular ticket,Yes,Group,0.75,0.75,1.0,1.0,0.5541145611260971,0.6666666666666666,0.7952641755320691,1.0,1.0,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.75,0.5,0.75,0.5,0.3298777758926478,0.0,0.7952641755320691,0.5947108578124566,0.5,Young Adults
+Female,Employed,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,1.0,0.75,1.0,1.0,0.5627334639554435,0.0,1.0,0.6637282543402536,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Solo,0.75,1.0,0.75,1.0,0.5886150418836021,2.0,0.7952641755320691,0.7327456508680508,1.0,Young Adults
+Female,Student,Singaporean,Physically at the entrance,One-day regular ticket,No,Group,0.75,0.75,0.75,0.5,0.5118106701994122,0.6666666666666666,0.7884682613537165,0.8017630473958478,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,1.0,0.5,0.75,1.0,0.35030734892140647,0.6666666666666666,0.7131774285485822,0.5506769513521742,1.0,Young Adults
+Female,Student,Singaporean,Physically at the entrance,One-day regular ticket,No,Group,0.75,0.75,0.75,1.0,0.42084422304603,1.6666666666666665,0.590528351064138,0.8869486970119206,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,1.0,0.75,1.0,0.6590335528466177,0.0,0.7952641755320691,0.7327456508680508,1.0,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.25,0.75,0.75,0.0,0.39589650093964596,0.0,0.7952641755320691,0.8869486970119206,0.5,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.25,0.75,0.75,0.5,0.5464295141185253,0.0,0.7952641755320691,1.0,1.0,Young Adults
+Female,Employed,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,Yes,Group,0.5,0.5,0.5,0.5,0.2758815779281586,0.0,0.590528351064138,0.6035260947916956,1.0,Young Adults
+Female,Employed,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,0.75,0.75,0.5,0.5712588730633014,1.0,0.7952641755320691,0.8869486970119206,1.0,Young Adults
+Female,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,1.0,1.0,1.0,0.7507219989386777,0.3333333333333333,0.8942341306768583,1.0,1.0,Young Adults
+Female,Student,Tourist,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,0.75,0.75,1.0,0.46314811397271494,1.0,0.5152375182590038,0.5506769513521742,1.0,Young Adults
+Female,Employed,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,0.75,0.75,0.5,0.3299961390542558,0.0,0.614207473403793,0.8179313004841235,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,0.5,0.5,0.5,0.5125326691380901,0.6666666666666666,0.614207473403793,0.8457969538561301,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.75,0.75,0.75,1.0,0.5627334639554435,1.0,0.6962942203872798,0.8017630473958478,1.0,Young Adults
+Male,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,1.0,1.0,1.0,1.0,0.6794631258753764,0.6666666666666666,0.8942341306768583,0.6637282543402536,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,Yes,Group,0.75,0.75,0.75,1.0,0.5258815779281585,1.0,0.5084416040806512,0.7327456508680508,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,1.0,1.0,1.0,1.0,0.44139215923639674,0.6666666666666666,0.5152375182590038,0.578542604724181,1.0,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Family,0.5,0.75,0.5,1.0,0.4036999111088258,0.0,0.7952641755320691,0.6196943478799712,1.0,Young Adults
+Female,Student,Singaporean,Resort World Sentosa Website,One-day regular ticket,No,Group,0.5,0.75,0.5,0.5,0.3668480250815408,0.0,0.6894983062089273,0.7327456508680508,1.0,Young Adults
+Male,Student,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",One-day regular ticket,No,Group,0.75,0.5,0.75,1.0,0.45546306696514305,0.6666666666666666,0.7952641755320691,0.8179313004841235,1.0,Young Adults
+Male,Employed,Singaporean,Physically at the entrance,One-day regular ticket,No,Family,0.25,0.75,0.75,1.0,0.4748404210105192,1.0,0.20473582446793098,0.4933569551081082,0.5,Seniors
+Female,Employed,Singaporean,Physically at the entrance,One-day regular ticket,No,Family,0.75,0.75,0.75,1.0,0.6221816668193327,2.0,0.3037057796127202,0.5506769513521742,0.5,Seniors
+Male,Retired,Tourist,"Third Party Vendor (e.g. Klook, Trip.com)",VIP Experience,No,Family,0.5,0.0,0.25,1.0,0.15915191600822576,0.0,0.18105670212827607,0.26725434913194923,0.0,Middle-Aged Adults
+Male,Retired,Tourist,"Third Party Vendor (e.g. Klook, Trip.com)",Regular ticket with Express Pass,No,Solo,0.75,0.75,0.5,0.5,0.6339923370187449,1.0,0.20473582446793098,0.0,0.0,Middle-Aged Adults
+Male,Retired,Tourist,Physically at the entrance,VIP Experience,Yes,Family,0.0,0.25,0.25,0.5,0.1081107590905864,0.3333333333333333,0.0,0.2510860960436736,0.0,Middle-Aged Adults
+Male,Student,Tourist,Resort World Sentosa Website,Regular ticket with Express Pass,No,Family,0.25,0.25,0.0,0.5,0.18726653604455634,0.0,0.20473582446793098,0.26725434913194923,0.0,Children
+Male,Retired,Singaporean,"Third Party Vendor (e.g. Klook, Trip.com)",VIP Experience,No,Family,0.25,0.75,0.25,0.5,0.27280817371970073,0.0,0.20473582446793098,0.340742598464291,0.0,Seniors
+Male,Employed,Tourist,Resort World Sentosa Website,Regular ticket with Express Pass,Yes,Family,0.75,0.0,0.0,0.5,0.04230389092668492,0.0,0.0,0.11305130298807944,1.0,Children
+Male,Student,Tourist,Physically at the entrance,Regular ticket with Express Pass,No,Group,0.25,0.0,0.25,0.0,0.07370377205457004,0.0,0.0,0.1703712992321455,0.5,Children
+Male,Student,Tourist,"Third Party Vendor (e.g. Klook, Trip.com)",Regular ticket with Express Pass,No,Family,0.25,0.0,0.0,0.5,0.0,0.0,0.0,0.06901739652779706,0.5,Children
