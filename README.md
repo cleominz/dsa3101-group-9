@@ -60,10 +60,6 @@ dsa3101-group-9/
 │   │   ├── Q8_ethics_and_privacy_enhancements.ipynb        # Notebook containing Q8 ethics and privacy enhancements
 │   │   └── hypothetical_survey_responses.csv               # Contains hypothetical data used in Q8 notebook
 │   └── eda.ipynb                                           # Exploratory Data Analysis (EDA) notebook
-├── sql/                                                    # SQL scripts for database setup and data management
-│   ├── db-schema.sql                                       # Defines the database schema
-│   ├── db-data.sql                                         # Script to populate the database with data
-│   └── exploration of final_synthetic_data.sql             # Script to explore the final_synthetic_data.csv using SQL
 ├── simulation/                                             # Folder for simulation, optimization, and app scripts
 │   ├── data/                                               # Processed data used for simulation
 │   │   ├── attendance_df.csv                               # Processed attendance data for simulations
@@ -72,9 +68,13 @@ dsa3101-group-9/
 │   ├── templates/                                          # HTML templates for Flask web application
 │   │   └── index.html                                      # Main page template with map and date selector
 │   ├── Dockerfile                                          # Docker configuration for containerizing the app
-│   ├── requirements.txt                                    # Python dependencies for the project
 │   ├── app.py                                              # Flask application entry point
+│   ├── requirements.txt                                    # Python dependencies for the project
 │   └── simulation.py                                       # Python script for simulation
+├── sql/                                                    # SQL scripts for database setup and data management
+│   ├── db-data.sql                                         # Script to populate the database with data
+│   ├── db-schema.sql                                       # Defines the database schema
+│   └── exploration of final_synthetic_data.sql             # Script to explore the final_synthetic_data.csv using SQL
 ├── subgroup A/                                             # Folder for Subgroup A's work
 │   ├── A1.ipynb                                            # Data analysis and insights by Subgroup A
 │   ├── A2.ipynb                                            # Additional analysis by Subgroup A
