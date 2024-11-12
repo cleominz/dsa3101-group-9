@@ -56,6 +56,9 @@ dsa3101-group-9/
 │   ├── sentosa_weather_df.csv                              # Contains weather data
 │   └── real_wait_time_data.csv                             # Contains real wait time data from 2023-2024
 ├── notebooks/                                              # Jupyter Notebooks for data analysis and visualization
+│   ├── Q8_ethics_and_privacy_enhancements/                 # Optional Q8 on ethics and privacy enhancements
+│   │   ├── Q8_ethics_and_privacy_enhancements.ipynb        # Notebook containing Q8 ethics and privacy enhancements
+│   │   └── hypothetical_survey_responses.csv               # Contains hypothetical data used in Q8 notebook
 │   └── eda.ipynb                                           # Exploratory Data Analysis (EDA) notebook
 ├── sql/                                                    # SQL scripts for database setup and data management
 │   ├── db-schema.sql                                       # Defines the database schema
