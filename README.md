@@ -77,7 +77,7 @@ dsa3101-group-9/
 │   └── exploration of final_synthetic_data.sql             # Script to explore the final_synthetic_data.csv using SQL
 ├── subgroup A/                                             # Folder for Subgroup A's work
 │   ├── A1.ipynb                                            # Data analysis and insights by Subgroup A
-│   ├── A2.ipynb                                            # Additional analysis by Subgroup A
+│   ├── A2_segmentation_model.ipynb                         # Guest segmentation model
 │   └── A3.ipynb                                            # Further analysis and reporting by Subgroup A
 ├── subgroup B/                                             # Folder for Subgroup B's work
 │   ├── B1_wait_data_simple_analysis_and_generation.ipynb   # Analysis and generation of wait time data
