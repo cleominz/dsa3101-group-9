@@ -78,43 +78,44 @@ FROM final_synthetic_data
 WHERE `preferred_attractions` LIKE '%Thrill Rides%';
 
 
--- combined_wait_time_df
--- 1. Calculate average wait time for each month in 2023, 2024
-SELECT month, AVG(wait_time) AS avg_wait_time
-FROM combined_wait_time_df
-WHERE year IN (2023, 2024)
-GROUP BY month
-ORDER BY month;
+-- 6. Count the missing dates from combined_wait_time_df
+WITH tab AS (
+    SELECT w.date
+    FROM sentosa_weather_df w LEFT JOIN combined_wait_time_df t ON w.date=t.date
+    WHERE t.date IS NULL
+    AND w.date <= (SELECT MAX(date) FROM combined_wait_time_df)
+    ORDER BY w.date)
+SELECT YEAR(date) AS year,
+    MONTH(date) AS month, 
+    COUNT(*) AS count
+FROM tab
+GROUP BY year, month
+ORDER BY year, month;
 
 
--- 2. Calculate average wait time by day of the week in 2023, 2024
-SELECT day_of_week, AVG(wait_time) AS avg_wait_time
-FROM combined_wait_time_df
-WHERE year IN (2023, 2024)
+-- 7. Calculate average wait time for each month in 2023, 2024 and difference over the year
+WITH tab AS (
+	SELECT year, month, AVG(wait_time) AS avg_wait_time
+	FROM combined_wait_time_df
+	WHERE year IN (2023, 2024)
+	GROUP BY year, month
+)
+SELECT y23.month, y23.avg_wait_time AS avg_in_2023,
+	y24.avg_wait_time AS avg_in_2024,
+	(y23.avg_wait_time - y24.avg_wait_time) AS difference
+FROM (SELECT * FROM tab WHERE year=2023) AS y23 INNER JOIN (SELECT * FROM tab WHERE year=2024) AS y24
+ON y23.month=y24.month
+ORDER BY y23.month;
+
+
+-- 8. Calculate average wait time by day of the week and stddev in 2023, 2024
+WITH tab AS (
+	SELECT day_of_week, date, AVG(wait_time) AS avg_wait_time
+	FROM combined_wait_time_df
+	WHERE year IN (2023, 2024)
+	GROUP BY day_of_week, date)
+SELECT day_of_week, AVG(avg_wait_time) as average, 
+STDDEV_POP(avg_wait_time) AS stddev
+FROM tab
 GROUP BY day_of_week
 ORDER BY day_of_week;
-
-
--- 3. Calculate average hourly distribution of wait time in one day in 2023, 2024
-SELECT hour, AVG(wait_time) AS avg_wait_time
-FROM combined_wait_time_df
-WHERE year IN (2023, 2024)
-GROUP BY hour
-ORDER BY hour;
-
-
--- 4. Calculate average wait time for each day in 2023, 2024
-SELECT date, AVG(wait_time) AS avg_wait_time
-FROM combined_wait_time_df
-WHERE year IN (2023, 2024)
-GROUP BY date
-ORDER BY date;
-
-
--- sentosa_weather_df and combined_wait_time_df
--- 1. Missing dates from combined_wait_time_df
-SELECT DISTINCT w.date
-FROM sentosa_weather_df w LEFT JOIN combined_wait_time_df t ON w.date=t.date
-WHERE t.date IS NULL
-AND w.date <= ALL (SELECT MAX(date) FROM combined_wait_time_df)
-ORDER BY date;
