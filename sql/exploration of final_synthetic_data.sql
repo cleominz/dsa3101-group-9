@@ -76,3 +76,44 @@ SELECT
 FROM final_synthetic_data
 WHERE `preferred_attractions` LIKE '%Thrill Rides%';
 
+
+-- combined_wait_time_df
+-- 1. Calculate average wait time for each month in 2023, 2024
+SELECT month, AVG(wait_time) AS avg_wait_time
+FROM combined_wait_time_df
+WHERE year IN (2023, 2024)
+GROUP BY month
+ORDER BY month;
+
+
+-- 2. Calculate average wait time by day of the week in 2023, 2024
+SELECT day_of_week, AVG(wait_time) AS avg_wait_time
+FROM combined_wait_time_df
+WHERE year IN (2023, 2024)
+GROUP BY day_of_week
+ORDER BY day_of_week;
+
+
+-- 3. Calculate average hourly distribution of wait time in one day in 2023, 2024
+SELECT hour, AVG(wait_time) AS avg_wait_time
+FROM combined_wait_time_df
+WHERE year IN (2023, 2024)
+GROUP BY hour
+ORDER BY hour;
+
+
+-- 4. Calculate average wait time for each day in 2023, 2024
+SELECT date, AVG(wait_time) AS avg_wait_time
+FROM combined_wait_time_df
+WHERE year IN (2023, 2024)
+GROUP BY date
+ORDER BY date;
+
+
+-- sentosa_weather_df and combined_wait_time_df
+-- 1. Missing dates from combined_wait_time_df
+SELECT DISTINCT w.date
+FROM sentosa_weather_df w LEFT JOIN combined_wait_time_df t ON w.date=t.date
+WHERE t.date IS NULL
+AND w.date <= ALL (SELECT MAX(date) FROM combined_wait_time_df)
+ORDER BY date;
