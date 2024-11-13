@@ -192,34 +192,34 @@ dsa3101-group-9/
 ### 7. Dataset: `survey_data_17features.csv`
 | Column Name                                 | Data Type  | Description                                                                 | Example Values                      |
 |---------------------------------------------|------------|-----------------------------------------------------------------------------|------------------------------------|
-| gender                                      | object     | Gender of the respondent.                                                   | "Male", "Female"                    |
-| occupation                                  | object     | Occupation of the respondent.                                               | "Student", "Employed"               |
-| visitor_profile                             | object     | Type of visitor profile.                                                    | "Singaporean", "Tourist"            |
-| ticket_purchase_method                      | object     | Method used to purchase tickets.                                            | "Third Party Vendor (e.g. Klook, Trip.com)", "Resort World Sentosa Website" |
-| ticket_type                                 | object     | Type of ticket purchased.                                                   | "One-day regular ticket", "Regular ticket with Express Pass" |
-| special_event_ticket                        | object     | Indicates if a special event ticket was purchased.                          | "Yes", "No"                         |
-| visitor_type                                | object     | Type of visitor (group or individual).                                      | "Group", "Family"                   |
-| attraction_overall_experience               | float64    | Overall experience rating of attractions                       | 1.0, 0.75                            |
-| overall_staff_service                       | float64    | Overall rating of staff service                                 | 1.0, 0.25                            |
-| overall_satisfaction                        | float64    | Overall satisfaction with the visit                             | 1.0, 0.5                            |
-| return_likelihood                           | float64    | Likelihood of returning to the park                            | 1.0, 0.25                            |
-| weighted_food_shopping_satisfaction_score   | float64    | Weighted satisfaction score for food and shopping experiences   | 0.42084422304603                            |
-| total_spend                                 | float64    | Weighted total amount spent during the visit                            |  1.0                       |
-| weighted_amenities_satisfaction_score       | float64    | Weighted satisfaction score for amenities                     | 0.7952641755320690                           |
-| weighted_entry_experience_score             | float64    | Weighted satisfaction score for entry experience              | 0.5506769513521740                            |
-| thrill_seeker_level                         | float64    | Level of thrill-seeking behavior                               | 1.0                           |
-| age_group                                   | object     | Age group of the respondent.                                                | Young Adults       |
+| `gender`                                      | object     | Gender of the respondent.                                                   | "Male", "Female"                    |
+| `occupation`                                  | object     | Occupation of the respondent.                                               | "Student", "Employed"               |
+| `visitor_profile`                             | object     | Type of visitor profile.                                                    | "Singaporean", "Tourist"            |
+| `ticket_purchase_method`                      | object     | Method used to purchase tickets.                                            | "Third Party Vendor (e.g. Klook, Trip.com)", "Resort World Sentosa Website" |
+| `ticket_type`                                 | object     | Type of ticket purchased.                                                   | "One-day regular ticket", "Regular ticket with Express Pass" |
+| `special_event_ticket`                        | object     | Indicates if a special event ticket was purchased.                          | "Yes", "No"                         |
+| `visitor_type`                                | object     | Type of visitor (group or individual).                                      | "Group", "Family"                   |
+| `attraction_overall_experience`               | float64    | Overall experience rating of attractions                       | 1.0, 0.75                            |
+| `overall_staff_service`                       | float64    | Overall rating of staff service                                 | 1.0, 0.25                            |
+| `overall_satisfaction`                        | float64    | Overall satisfaction with the visit                             | 1.0, 0.5                            |
+| `return_likelihood`                           | float64    | Likelihood of returning to the park                            | 1.0, 0.25                            |
+| `weighted_food_shopping_satisfaction_score`   | float64    | Weighted satisfaction score for food and shopping experiences   | 0.42084422304603                            |
+| `total_spend`                                 | float64    | Weighted total amount spent during the visit                            |  1.0                       |
+| `weighted_amenities_satisfaction_score`       | float64    | Weighted satisfaction score for amenities                     | 0.7952641755320690                           |
+| `weighted_entry_experience_score`             | float64    | Weighted satisfaction score for entry experience              | 0.5506769513521740                            |
+| `thrill_seeker_level`                         | float64    | Level of thrill-seeking behavior                               | 1.0                           |
+| `age_group`                                   | object     | Age group of the respondent.                                                | Young Adults       |
 
 ### 8. Dataset: `tripadvisor_data_cleaned.csv`
 | Column Name            | Data Type  | Description                                                        | Example Values                     |
 |------------------------|------------|--------------------------------------------------------------------|-----------------------------------|
-| Rating                 | float64    | Overall rating given by the visitor (1-5 scale).                   | 4.0, 5.0                           |
-| Date of Visit          | object     | The date the visit occurred, in string format (YYYY-MM-DD).        | "2024-11-10", "2024-11-12"         |
-| Trip Type              | object     | Type of trip the visitor made.                                     | "Family", "Solo"                 |
-| Month of Visit         | object     | The month during which the visit occurred.                         | "Jul-Sep", "Oct-Dec"                 |
-| Review Title Cleaned   | object     | Cleaned version of the review title provided by the visitor.       | "totally overcrowded", "fun"|
-| Review Text Cleaned    | object     | Cleaned version of the detailed review text by the visitor.        | "awesome time family son best time best place ride also shop lot option food" |
-| Visit Category         | object     | Category describing the day of visit            | "Weekends"         |
+| `Rating`                 | float64    | Overall rating given by the visitor (1-5 scale).                   | 4.0, 5.0                           |
+| `Date of Visit`          | object     | The date the visit occurred, in string format (YYYY-MM-DD).        | "2024-11-10", "2024-11-12"         |
+| `Trip Type`              | object     | Type of trip the visitor made.                                     | "Family", "Solo"                 |
+| `Month of Visit`         | object     | The month during which the visit occurred.                         | "Jul-Sep", "Oct-Dec"                 |
+| `Review Title Cleaned`   | object     | Cleaned version of the review title provided by the visitor.       | "totally overcrowded", "fun"|
+| `Review Text Cleaned`    | object     | Cleaned version of the detailed review text by the visitor.        | "awesome time family son best time best place ride also shop lot option food" |
+| `Visit Category`         | object     | Category describing the day of visit            | "Weekends"         |
 
 # API Documentation
 
