@@ -15,7 +15,6 @@ mysql> SOURCE db-data.sql;
 ```
 
 -- SQL scripts for data extraction and transformation
--- final_synthetic_data
 -- 1. Extract visitor demographic information along with their visit details
 SELECT 
     age,
