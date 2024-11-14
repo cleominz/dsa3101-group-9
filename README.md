@@ -48,7 +48,12 @@ Ensure that Docker is up and running. Navigate to the simulation directory and r
 Below is an overview of the repository structure and what each folder/file contains:
 ```
 dsa3101-group-9/
-├── data/                                                   # Folder for storing raw data files
+├── data/                                                   # Folder for storing data files
+│   ├── raw_data/                                           # Folder for storing raw data files
+│   │   ├── raw_survey_data.csv                             # Contains raw survey data
+│   │   ├── raw_tripadvisor_data_source1.csv                # Contains raw TripAdvisor data from our first source
+│   │   ├── raw_tripadvisor_data_source2_p1.csv             # Contains raw TripAdvisor data from our second source
+│   │   └── raw_tripadvisor_data_source2_p2.csv             # Contains raw TripAdvisor data from our second source
 │   ├── collated_forecasts_per_ride.csv                     # Contains predicted forecast data from B1 analysis
 │   ├── combined_wait_time_df.csv                           # Contains synthetic wait time data from 2019-2022 and real wait time data from 2023-2024
 │   ├── daily_avg_wait_time_df.csv                          # Contains daily average wait time
@@ -83,20 +88,19 @@ dsa3101-group-9/
 ├── sql/                                                    # SQL scripts for database setup and data management
 │   ├── db-data.sql                                         # Script to populate the database with data
 │   ├── db-schema.sql                                       # Defines the database schema
-│   └── exploration of final_synthetic_data.sql             # Script to explore the final_synthetic_data.csv using SQL
+│   └── exploration of final_synthetic_data.sql             # Script to explore the data using SQL
 ├── subgroup A/                                             # Folder for Subgroup A's work
-│   ├── A1.ipynb                                            # Data analysis and business metrics
-│   ├── A2_feature_engineering.ipynb                        # Feature engineering of survey responses
+│   ├── A1_guest_satisfaction_metrics.ipynb                 # Data analysis and business metrics
 │   ├── A2_segmentation_model.ipynb                         # Guest segmentation model
-│   └── A3.ipynb                                            # Further analysis and reporting by Subgroup A
+│   └── A3_guest_journey_patterns.ipynb                     # Further analysis on guest journey patterns
 ├── subgroup B/                                             # Folder for Subgroup B's work
 │   ├── B1_demand_forecasting_model.ipynb                   # Demand forecasting model
 │   ├── B2_optimise_guest_experience.ipynb                  # Optimisation model to enhance guest experience
 │   ├── B3_resource_allocation_optimization.ipynb           # Optimisation model to improve resource allocation
 │   └── optional_B2_AI_queue_system.ipynb                   # Implementation of an AI driven queue system
+├── main.py                                                 # Python script for running main notebooks
 ├── README.md                                               # Project documentation (this file)
-├── requirements.txt                                        # Python dependencies for setting up the project
-└── .gitignore                                              # Specifies files and folders to ignore in Git
+└── requirements.txt                                        # Python dependencies for setting up the project
 ```
 # Data Sources
 
