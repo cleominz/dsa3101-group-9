@@ -35,11 +35,16 @@ To run/test the app locally, follow these step-by-step instructions:
 First, clone the repository to your local machine using the command below:
 - git clone https://github.com/cleominz/dsa3101-group-9.git
 
-### Step 2: Install Dependencies
+### Step 2: Set up a Virtual Environment
+Navigate to this repository in your local machine. Create and activate the virtual environment as follows:
+- python3.10 -m venv myenv
+- source myenv/bin/activate
+
+### Step 3: Install Dependencies
 Install required packages using:
 - pip install -r requirements.txt
 
-### Step 3: Running the Application
+### Step 4: Running the Application
 Ensure that Docker is up and running. Navigate to the simulation directory and run the commands below: 
 - docker build -t flask-app .
 - docker tun -p 5001:5001 flask-app
