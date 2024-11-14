@@ -63,7 +63,8 @@ dsa3101-group-9/
 │   ├── feature_engineering.ipynb                           # Notebook to determine relevant features for further analysis
 │   ├── survey_data_analysis.ipynb                          # Conducted exploratory data analysis on survey responses
 │   ├── survey_data_cleaning.ipynb                          # Cleaned up survey responses 
-│   └── tripadvisor_data_cleaning.ipynb                     # Cleaning of TripAdvisor data
+│   ├── tripadvisor_data_cleaning.ipynb                     # Cleaning of TripAdvisor data
+│   └── wait_data_simple_analysis_and_generation.ipynb      # Analysis of wait time data and generation for earlier years
 ├── notebooks/                                              # Jupyter Notebooks for optional questions
 │   └── Q8_ethics_and_privacy_enhancements/                 # Optional Q8 on ethics and privacy enhancements
 │       ├── Q8_ethics_and_privacy_enhancements.ipynb        # Notebook containing Q8 ethics and privacy enhancements
@@ -89,7 +90,6 @@ dsa3101-group-9/
 │   ├── A2_segmentation_model.ipynb                         # Guest segmentation model
 │   └── A3.ipynb                                            # Further analysis and reporting by Subgroup A
 ├── subgroup B/                                             # Folder for Subgroup B's work
-│   ├── B1_wait_data_simple_analysis_and_generation.ipynb   # Analysis and generation of wait time data
 │   ├── B1_demand_forecasting_model.ipynb                   # Demand forecasting model
 │   ├── B2_optimise_guest_experience.ipynb                  # Optimisation model to enhance guest experience
 │   ├── B3_resource_allocation_optimization.ipynb           # Optimisation model to improve resource allocation
