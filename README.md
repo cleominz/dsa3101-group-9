@@ -108,7 +108,22 @@ dsa3101-group-9/
 └── requirements.txt                                        # Python dependencies for setting up the project
 ```
 # Data Sources
+## 1. USS Wait Time Data
+Downloaded from the Thrill Data website, listed in the references section of the Wiki
 
+## 2. USS Weather Data
+Web scraped from the Time and Date website, listed in the references section of the Wiki
+
+## 3. TripAdvisor Data
+To obtain a comprehensive view of visitor feedback, we used TripAdvisor review data from two sources:
+- **Source 1**: Web-scraped reviews collected directly from TripAdvisor.
+- **Source 2**: Kaggle dataset with TripAdvisor reviews, downloaded from Kaggle.
+
+## 4. Real Data Collection
+We curated a list of questions that targeted guest experience and satisfaction regarding Universal Studios Singapore. The survey was conducted using a Google Docs survey form, and respondents were mostly from our personal networks and family members. We collected a total of 69 real responses, which were exported as a CSV file. The survey includes multiple-choice questions (MCQ), multi-response questions (MRQ), as well as free-response questions. 
+
+## 5. Synthetic Data Generation
+Due to our limited number of real survey responses, we made use of various methods to generate synthetic data following the distribution of the original responses. For MCQ data, we used SDV to generate synthetic data that models the distribution of our real responses. For MRQ data, we made use of frequency-based sampling. To fill in the free-response questions, we took real comments from the TripAdvisor data. We then assigned realistic attraction wait time data based on satisfaction ratings of the TripAdvisor data. 
 
 # Data Dictionary
 
