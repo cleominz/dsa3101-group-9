@@ -71,10 +71,10 @@ dsa3101-group-9/
 ├── data processing/                                        # Folder for data processing notebooks
 │   ├── daily_average_wait_time_generation.ipynb            # Notebook to generate daily average wait time
 │   ├── feature_engineering.ipynb                           # Notebook to determine relevant features for further analysis
+│   ├── sentosa_weather_web_scraping.ipynb                  # Web scraping for sentosa precipitation
 │   ├── survey_data_analysis.ipynb                          # Conducted exploratory data analysis on survey responses
 │   ├── survey_data_cleaning.ipynb                          # Cleaned up survey responses 
 │   ├── tripadvisor_data_cleaning.ipynb                     # Cleaning of TripAdvisor data
-│   ├── sentosa_weather_web_scraping.ipynb                  # Web scraping for sentosa precipitation
 │   └── wait_data_simple_analysis_and_generation.ipynb      # Analysis of wait time data and generation for earlier years
 ├── notebooks/                                              # Jupyter Notebooks for optional questions
 │   └── Q8_ethics_and_privacy_enhancements/                 # Optional Q8 on ethics and privacy enhancements
