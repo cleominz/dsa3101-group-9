@@ -96,7 +96,7 @@ dsa3101-group-9/
 │   ├── db-schema.sql                                       # Defines the database schema
 │   └── exploration of final_synthetic_data.sql             # Script to explore the data using SQL
 ├── subgroup A/                                             # Folder for Subgroup A's work
-│   ├── A1_guest_satisfaction_metrics.ipynb                 # Data analysis and business metrics
+│   ├── A1_satisfaction_drivers.ipynb                       # Data analysis and business metrics
 │   ├── A2_segmentation_model.ipynb                         # Guest segmentation model
 │   └── A3_guest_journey_patterns.ipynb                     # Further analysis on guest journey patterns
 ├── subgroup B/                                             # Folder for Subgroup B's work
